@@ -1,5 +1,0 @@
-2023-01-25 23:21:19.165 [info] Starting worker process with pid 1811413 (type: fileWatcher, window: 1).
-2023-01-25 23:21:29.006 [info] Worker process with pid 1811413 terminated normally (type: fileWatcher, window: 1).
-2023-01-25 23:21:29.820 [info] Starting worker process with pid 1811567 (type: fileWatcher, window: 1).
-2023-01-25 23:21:42.568 [info] Worker process with pid 1811567 terminated normally (type: fileWatcher, window: 1).
-2023-01-25 23:21:44.108 [info] Starting worker process with pid 1811764 (type: fileWatcher, window: 1).

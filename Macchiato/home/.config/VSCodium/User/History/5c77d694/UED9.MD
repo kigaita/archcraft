@@ -1,1 +1,0 @@
-a rewrite of my github page - preview at: https://vani.vendicated.dev/vanillyn2

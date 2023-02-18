@@ -1,7 +1,0 @@
-[Global] Creating projects: [{"folder":"/home/vani/Documents/Projects/vanillyn2","configPath":"/home/vani/Documents/Projects/vanillyn2/tailwind.config.js","isUserConfigured":false,"documentSelector":[{"pattern":"/home/vani/Documents/Projects/vanillyn2/tailwind.config.js","priority":0},{"pattern":"/home/vani/Documents/Projects/vanillyn2/*.html","priority":1},{"pattern":"/home/vani/Documents/Projects/vanillyn2/contact/*.html","priority":1},{"pattern":"/home/vani/Documents/Projects/vanillyn2/about/*.html","priority":1},{"pattern":"/home/vani/Documents/Projects/vanillyn2/**","priority":3}]}]
-[Global] Adding watch patterns: /home/vani/Documents/Projects/vanillyn2/tailwind.config.js, /home/vani/Documents/Projects/vanillyn2, /home/vani/Documents/Projects, /home/vani/Documents, /home/vani, /home, /
-[tailwind.config.js] Initializing...
-[tailwind.config.js] Loaded Tailwind CSS config file: /home/vani/Documents/Projects/vanillyn2/tailwind.config.js
-[tailwind.config.js] Loaded postcss v8.4.21: /home/vani/Documents/node_modules/.pnpm/postcss@8.4.21/node_modules/postcss
-[tailwind.config.js] Loaded tailwindcss v3.2.4: /home/vani/Documents/node_modules/.pnpm/tailwindcss@3.2.4_postcss@8.4.21/node_modules/tailwindcss
-[tailwind.config.js] Building...

@@ -1,3 +1,0 @@
-2023-02-04 00:29:58.673 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'commentsResolvedState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2023-02-04 00:29:59.894 [error] [donjayamanne.jquerysnippets]: Unknown language in `contributes.jquerysnippets.language`. Provided value: pug
-2023-02-04 00:30:02.766 [info] [perf] Render performance baseline is 56ms
