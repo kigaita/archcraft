@@ -1,0 +1,46 @@
+[global_config]
+  enabled_plugins = TerminalShot, LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#303446"
+    background_darkness = 0.85
+    background_type = transparent
+    foreground_color = "#c6d0f5"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#303446:#ff6a6a:#85ff74:#e9ff60:#62a0ea:#c061cb:#6bfaff:#d3d7cf:#c6d0f5:#ffadad:#c0ffc1:#fffca6:#99c1f1:#dc8add:#b4fbff:#eeeeec"
+    use_custom_command = True
+    custom_command = zsh
+  [[Catppuccin_Frappe]]
+    background_color = "#303446"
+    background_darkness = 0.85
+    background_type = transparent
+    background_image = None
+    foreground_color = "#c6d0f5"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#51576d:#e78284:#a6d189:#e5c890:#8caaee:#f4b8e4:#81c8be:#b5bfe2:#626880:#e78284:#a6d189:#e5c890:#8caaee:#f4b8e4:#81c8be:#a5adce"
+    use_custom_command = True
+    custom_command = zsh
+  [[cava]]
+    icon_bell = False
+    background_color = "#303446"
+    background_darkness = 0.09
+    background_type = transparent
+    background_image = None
+    foreground_color = "#c6d0f5"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#51576d:#e78284:#a6d189:#e5c890:#8caaee:#f4b8e4:#81c8be:#b5bfe2:#626880:#e78284:#a6d189:#e5c890:#8caaee:#f4b8e4:#81c8be:#a5adce"
+    use_custom_command = True
+    custom_command = cava
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]

@@ -1,0 +1,10 @@
+[Trace 17:52:53.506] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///home/vani/Documents/TJADB/docs/index.md
+[Trace 17:52:53.507] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///home/vani/Documents/TJADB/docs/index.md
+[Trace 17:52:53.508] Server: connection.languages.diagnostics.on: file:///home/vani/Documents/TJADB/docs/index.md
+[Debug 17:52:53.546] LinkProvider: compute - file:///home/vani/Documents/TJADB/docs/index.md
+[Trace 17:52:53.549] Server: connection.languages.diagnostics.on: file:///home/vani/Documents/TJADB/docs/index.md
+[Debug 17:52:53.726] MdFoldingProvider: provideFoldingRanges — file:///home/vani/Documents/TJADB/docs/index.md 1
+[Debug 17:52:53.727] TableOfContentsProvider: create - file:///home/vani/Documents/TJADB/docs/index.md
+[Trace 17:52:53.750] DocumentSymbolProvider: provideDocumentSymbols — file:///home/vani/Documents/TJADB/docs/index.md 1
+[Trace 17:52:59.036] VsCodeClientWorkspace: TextDocument.onDidClose: file:///home/vani/Documents/TJADB/docs/index.md
+[Trace 17:52:59.036] VsCodeClientWorkspace: deleteDocument: file:///home/vani/Documents/TJADB/docs/index.md

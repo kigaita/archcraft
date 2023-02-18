@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+        <link type="stylesheet" href="css/tailwind.css" />
+    </head>
+    <body>
+        <div id="content">
+            <script>
+                const jsn = fetch('https://raw.githubusercontent.com/vanillyn/autolibrary/main/library.json')
+                const json = Object.entries(jsn)
+                const jstring = JSON.stringify(json)
+                console.dir(`${jsn}, ${json}, ${jstring}`, {'maxArrayLength': null});
+                // const div = document.getElementById("content");
+                // div.innerHTML = div.innerHTML + `<p>${json.Name}</p>`
+            </script>
+        </div>
+    </body>
+</html>

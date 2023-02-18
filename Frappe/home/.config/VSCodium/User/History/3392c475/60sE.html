@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+        <link type="stylesheet" href="css/tailwind.css" />
+    </head>
+    <body>
+        <div id="content">
+            <script>
+    $(function(){
+        $.getJSON('http://127.0.0.1:5500/library.json',function(data){
+            console.log('success');
+            $.each(data,function(i,dat){
+                $('ul').append('<li>'+dat.Name+' '+dat.Platforms+'</li>');
+            });
+        }).error(function() => {
+            console.err(error);
+        });
+    });
+            </script>
+        </div>
+    </body>
+</html>

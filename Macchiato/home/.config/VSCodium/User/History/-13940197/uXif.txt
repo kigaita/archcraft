@@ -1,0 +1,1 @@
+```ansi\n[2;35m[2;37m[2;34m[2;36mReact below with the emoji corresponding the the role!\n[0m[2;34m[0m[2;37mLook at the role you want then look at the emoji beside it.\nThen, click the reaction that has that emoji. \n[0m[2;35m[2;34m[2;31mIf the reactions don't appear, reload/restart Discord![0m[2;34m[0m[2;35m[0m\n```

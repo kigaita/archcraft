@@ -1,0 +1,19 @@
+[Global] Creating projects: [{"folder":"/home/vani/Documents/Projects/vanillyn site/vanillyn2","configPath":"/home/vani/Documents/Projects/vanillyn site/vanillyn2/tailwind.config.js","isUserConfigured":false,"documentSelector":[{"pattern":"/home/vani/Documents/Projects/vanillyn site/vanillyn2/tailwind.config.js","priority":0},{"pattern":"/home/vani/Documents/Projects/vanillyn site/vanillyn2/**","priority":3}]}]
+[Global] Adding watch patterns: /home/vani/Documents/Projects/vanillyn site/vanillyn2/tailwind.config.js, /home/vani/Documents/Projects/vanillyn site/vanillyn2
+[tailwind.config.js] Initializing...
+[tailwind.config.js] Failed to load workspace modules.
+[tailwind.config.js] Using bundled version of `tailwindcss`: v3.2.4
+[tailwind.config.js] Using bundled version of `postcss`: v8.3.9
+[tailwind.config.js] Building...
+[Error - 12:30:02 AM] Tailwind CSS: Can't resolve '@catppuccin/tailwindcss' in '/home/vani/Documents/Projects/vanillyn site/vanillyn2'
+Error: Can't resolve '@catppuccin/tailwindcss' in '/home/vani/Documents/Projects/vanillyn site/vanillyn2'
+    at h (/home/vani/.vscode-oss/extensions/bradlc.vscode-tailwindcss-0.9.7-universal/dist/tailwindServer.js:130:7129)
+    at /home/vani/.vscode-oss/extensions/bradlc.vscode-tailwindcss-0.9.7-universal/dist/tailwindServer.js:131:713
+    at /home/vani/.vscode-oss/extensions/bradlc.vscode-tailwindcss-0.9.7-universal/dist/tailwindServer.js:134:401
+    at eval (eval at create (/home/vani/.vscode-oss/extensions/bradlc.vscode-tailwindcss-0.9.7-universal/dist/tailwindServer.js:5:78), <anonymous>:15:1)
+    at /home/vani/.vscode-oss/extensions/bradlc.vscode-tailwindcss-0.9.7-universal/dist/tailwindServer.js:134:401
+    at eval (eval at create (/home/vani/.vscode-oss/extensions/bradlc.vscode-tailwindcss-0.9.7-universal/dist/tailwindServer.js:5:78), <anonymous>:16:1)
+    at /home/vani/.vscode-oss/extensions/bradlc.vscode-tailwindcss-0.9.7-universal/dist/tailwindServer.js:134:401
+    at eval (eval at create (/home/vani/.vscode-oss/extensions/bradlc.vscode-tailwindcss-0.9.7-universal/dist/tailwindServer.js:5:78), <anonymous>:15:1)
+    at /home/vani/.vscode-oss/extensions/bradlc.vscode-tailwindcss-0.9.7-universal/dist/tailwindServer.js:134:401
+    at eval (eval at create (/home/vani/.vscode-oss/extensions/bradlc.vscode-tailwindcss-0.9.7-universal/dist/tailwindServer.js:5:78), <anonymous>:15:1)

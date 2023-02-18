@@ -1,0 +1,393 @@
+2023-02-02 20:02:00.147 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'commentsResolvedState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-02-02 20:02:00.196 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/vani/Documents/Projects/spm.js","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2023-02-02 20:02:01.098 [error] Extension 'github.vscode-pull-request-github' wants API proposal 'commentsResolvedState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-02-02 20:02:01.217 [error] [donjayamanne.jquerysnippets]: Unknown language in `contributes.jquerysnippets.language`. Provided value: pug
+2023-02-02 20:02:03.984 [info] [perf] Render performance baseline is 72ms
+2023-02-02 20:20:20.943 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'commentsResolvedState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-02-02 20:20:21.594 [error] Extension 'github.vscode-pull-request-github' wants API proposal 'commentsResolvedState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-02-02 20:20:22.314 [error] [donjayamanne.jquerysnippets]: Unknown language in `contributes.jquerysnippets.language`. Provided value: pug
+2023-02-02 20:20:24.936 [info] [perf] Render performance baseline is 53ms
+2023-02-02 22:00:20.547 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 22:03:20.473 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 22:06:21.488 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 22:09:21.467 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 22:12:21.491 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 22:15:22.474 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 22:18:22.477 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 22:21:22.481 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 22:24:23.468 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 22:27:23.451 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 22:30:23.452 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 22:33:24.446 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 22:36:24.453 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 22:39:24.448 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 22:42:25.454 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 22:45:25.457 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 22:48:25.458 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 22:51:25.452 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 22:54:26.449 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 22:57:26.450 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 23:00:26.452 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 23:03:27.457 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 23:06:27.445 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 23:09:27.446 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 23:12:28.457 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 23:12:34.153 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-02 23:15:28.452 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 23:15:34.129 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-02 23:18:28.450 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 23:18:34.130 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-02 23:21:28.451 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 23:21:34.128 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-02 23:24:29.448 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 23:24:34.142 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-02 23:27:29.455 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 23:27:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-02 23:30:29.449 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 23:30:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-02 23:33:30.452 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 23:33:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-02 23:36:30.449 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 23:36:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-02 23:39:30.448 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 23:39:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-02 23:42:31.452 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 23:42:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-02 23:45:31.456 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 23:45:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-02 23:48:31.458 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 23:48:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-02 23:51:31.454 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 23:51:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-02 23:54:32.455 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 23:54:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-02 23:57:32.456 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-02 23:57:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 00:00:32.452 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 00:00:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 00:03:33.462 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 00:03:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 00:06:33.456 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 00:06:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 00:09:33.450 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 00:09:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 00:12:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 00:12:34.467 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 00:15:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 00:15:34.464 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 00:18:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 00:18:34.452 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 00:21:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 00:21:34.454 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 01:00:38.472 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 01:03:39.482 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 01:06:39.469 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 01:09:39.477 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 01:12:39.474 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 01:15:40.479 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 01:18:40.490 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 01:21:40.486 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 01:24:41.487 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 01:27:41.477 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 01:30:41.483 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 01:33:42.484 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 01:36:42.498 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 01:39:42.487 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 01:42:43.496 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 01:45:43.495 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 01:48:43.495 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 01:51:44.503 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 01:54:44.504 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 01:57:44.513 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 02:00:44.513 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 02:03:45.509 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 02:06:45.520 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 02:09:45.505 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 02:12:46.515 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 02:15:46.518 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 02:18:46.509 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 02:21:47.513 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 02:24:47.520 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 02:27:47.528 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 02:30:48.519 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 02:33:48.524 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 02:36:48.524 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 02:39:49.434 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 02:42:49.440 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 02:45:50.454 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 02:48:50.460 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 02:51:50.455 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 02:54:51.450 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 02:57:51.455 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 03:00:51.462 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 03:03:52.467 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 03:06:52.462 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 03:09:53.461 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 03:12:53.455 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 03:15:53.468 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 03:18:54.477 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 03:21:54.468 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 03:24:54.477 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 03:27:55.481 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 03:30:55.479 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 03:33:55.482 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 03:36:55.477 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 03:39:56.475 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 03:42:56.489 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 03:45:56.489 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 03:48:57.499 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 03:51:57.488 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 03:54:57.484 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 03:57:58.497 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 04:00:58.497 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 04:03:58.504 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 04:06:59.501 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 04:09:59.516 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 04:12:59.503 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 04:16:00.510 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 04:19:00.511 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 04:22:00.512 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 04:25:00.522 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 04:28:01.518 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 04:31:01.516 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 04:34:01.516 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 04:37:02.515 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 04:40:02.528 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 04:43:02.508 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 04:46:03.519 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 04:49:03.517 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 04:52:03.529 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 04:55:04.520 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 04:58:04.526 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 05:01:04.531 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 05:04:05.529 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 05:07:05.539 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 05:10:06.540 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 05:13:06.535 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 05:16:06.534 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 05:19:07.552 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 05:22:07.556 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 05:25:07.553 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 05:28:08.556 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 05:31:08.555 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 05:34:08.548 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 05:37:08.554 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 05:40:09.541 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 05:43:09.552 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 05:46:09.556 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 05:49:10.563 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 05:52:10.566 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 05:55:10.573 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 05:58:11.571 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 06:01:11.569 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 06:04:11.574 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 06:07:12.575 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 06:10:12.579 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 06:13:12.580 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 06:16:12.584 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 06:19:13.575 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 06:22:13.577 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 06:25:13.579 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 06:28:14.586 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 06:31:14.579 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 06:34:14.590 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 06:37:15.583 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 06:40:15.594 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 06:43:15.589 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 06:46:16.600 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 06:49:16.593 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 06:52:16.598 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 06:55:16.602 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 06:58:17.602 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 07:01:17.614 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 07:04:17.603 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 07:07:18.611 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 07:10:18.609 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 07:13:18.606 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 07:16:19.606 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 07:19:19.621 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 07:22:18.633 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 07:25:19.611 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 07:28:20.634 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 07:31:20.636 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 07:34:20.630 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 07:37:21.660 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 07:40:21.644 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 07:43:21.654 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 07:46:22.648 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 07:49:22.650 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 07:52:22.645 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 07:55:22.642 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 07:58:23.653 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 08:01:23.651 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 08:04:23.657 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 08:07:24.646 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 08:10:24.658 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 08:13:24.655 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 08:16:25.659 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 08:19:25.682 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 08:22:25.670 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 08:25:26.668 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 08:28:26.709 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 08:31:26.702 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 08:34:27.691 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 08:37:27.706 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 08:40:27.665 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 08:43:27.680 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 08:46:28.679 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 08:46:34.160 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 08:49:28.680 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 08:49:34.136 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 08:52:29.683 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 08:52:34.140 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 08:55:29.696 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 08:55:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 08:58:29.700 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 08:58:34.117 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 09:01:29.695 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 09:01:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 09:04:30.688 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 09:04:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 09:07:30.695 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 09:07:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 09:10:30.693 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 09:10:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 09:13:31.692 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 09:13:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 09:16:31.706 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 09:16:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 09:19:31.712 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 09:19:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 09:22:32.706 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 09:22:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 09:25:32.717 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 09:25:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 09:28:32.729 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 09:28:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 09:31:33.714 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 09:31:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 09:34:33.717 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 09:34:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 09:37:33.685 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 09:37:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 09:40:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 09:40:34.729 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 09:43:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 09:43:34.728 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 09:46:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-03 09:46:34.724 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 10:22:38.764 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 10:25:39.765 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 10:28:39.760 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 10:31:39.759 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 10:34:40.771 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 10:37:40.767 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 10:40:40.763 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 10:43:41.781 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 10:46:41.783 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 10:49:41.778 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 10:52:41.445 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 10:55:42.448 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 10:58:42.448 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 11:01:42.449 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 11:04:43.437 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 11:07:43.450 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 11:10:43.448 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 11:13:44.448 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 11:16:44.455 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 11:19:44.459 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 11:22:44.461 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 11:25:45.468 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 11:28:45.470 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 11:31:45.465 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 11:34:46.471 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 11:37:46.472 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 11:40:46.469 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 11:43:49.443 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 11:46:47.480 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 11:49:47.481 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 11:52:48.466 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 11:55:48.494 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 11:58:48.485 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 12:01:49.483 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 12:04:49.491 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 12:07:49.479 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 12:10:49.485 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 12:13:50.497 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 12:16:50.493 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 12:19:50.501 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 12:22:51.484 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 12:25:51.510 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 12:28:51.507 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 12:31:52.515 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 12:34:52.509 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 12:37:52.511 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 12:40:52.512 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 12:43:53.506 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 12:46:53.512 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 12:49:53.515 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 12:52:54.511 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 12:55:54.515 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 12:58:54.524 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 13:01:55.519 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 13:04:55.527 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 13:07:55.522 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 13:10:55.528 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 13:13:56.523 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 13:16:56.517 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 13:19:56.527 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 13:22:57.522 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 13:25:57.534 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 13:28:57.533 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 13:31:58.538 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 13:34:58.534 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 13:37:58.545 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 13:40:58.554 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 13:43:59.535 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 13:46:59.551 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 13:49:59.546 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 13:53:00.560 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 13:56:00.545 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 13:59:00.554 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 14:02:01.554 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 14:05:01.549 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 14:08:01.553 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 14:11:02.559 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 14:14:02.563 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 14:17:02.561 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 14:20:03.561 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 14:23:03.568 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 14:26:03.576 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 14:29:04.575 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 14:32:04.575 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 14:35:04.563 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 14:38:05.596 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 14:41:05.573 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 14:44:06.588 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 14:47:06.623 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 14:50:06.570 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 14:53:06.581 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 14:56:07.589 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 14:59:07.584 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 15:02:07.584 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 15:05:08.589 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 15:08:08.597 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 15:11:08.591 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 15:14:09.587 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 15:17:09.665 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 15:20:09.696 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 15:23:10.679 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 15:26:10.697 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 15:29:10.706 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 15:32:11.654 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-03 18:14:20.071 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'commentsResolvedState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-02-03 18:14:22.077 [error] [donjayamanne.jquerysnippets]: Unknown language in `contributes.jquerysnippets.language`. Provided value: pug
+2023-02-03 18:14:24.375 [info] [perf] Render performance baseline is 115ms
+2023-02-04 00:09:32.479 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-04 00:09:34.119 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-04 00:14:32.462 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-04 00:14:34.117 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-04 00:19:33.470 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-04 00:19:34.116 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-02-04 00:24:33.461 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-02-04 00:24:34.117 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session

@@ -1,0 +1,16 @@
+[Desktop Entry]
+FullScreen=false
+
+[MainWindow]
+HDMI-0=HDMI-0
+HDMI-0 XPosition 1920x1080 HDMI-0=93
+HDMI-0 YPosition 1920x1080 HDMI-0=406
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABIAAAAKOAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAQAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHICAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/linux.sh
+File2[$e]=/run/media/vani/Drive/Files/Uncategorized/Brave Passwords.csv
+Name1[$e]=linux.sh
+Name2[$e]=Brave Passwords.csv

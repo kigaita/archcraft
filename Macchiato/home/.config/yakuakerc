@@ -1,0 +1,16 @@
+[Appearance]
+BackgroundColor=246,97,81
+HideSkinBorders=true
+Translucency=true
+
+[Behavior]
+FocusFollowsMouse=true
+
+[Dialogs]
+FirstRun=false
+
+[Window]
+Height=25
+ShowTabBar=false
+ShowTitleBar=false
+Width=50

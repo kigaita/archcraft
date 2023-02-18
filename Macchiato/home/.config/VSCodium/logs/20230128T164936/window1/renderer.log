@@ -1,0 +1,2 @@
+2023-01-28 16:49:38.896 [error] [donjayamanne.jquerysnippets]: Unknown language in `contributes.jquerysnippets.language`. Provided value: pug
+2023-01-28 16:49:41.366 [info] [perf] Render performance baseline is 45ms

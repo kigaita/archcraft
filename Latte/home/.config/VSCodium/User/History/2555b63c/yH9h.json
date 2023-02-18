@@ -1,0 +1,11 @@
+{
+    "workbench.iconTheme": "eq-material-theme-icons-darker",
+    "workbench.colorTheme": "Catppuccin Frappé",
+    "explorer.confirmDragAndDrop": false,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "git.confirmSync": false
+}

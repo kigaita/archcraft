@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="libParse.js"></script>
+        <script type="text/javascript" src="jquery-csv.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <link type="stylesheet" href="css/tailwind.css" />
+    </head>
+    <body>
+        <div id="content">
+            <script>
+                const csvp = $.csv.toObjects(csvv);
+                const json = Object.entries(csvv)
+                const div = document.getElementById("content");
+                div.innerHTML = div.innerHTML + `<p>${json}</p>`
+            </script>
+        </div>
+    </body>
+</html>

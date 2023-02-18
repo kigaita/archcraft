@@ -1,0 +1,2 @@
+2023-01-26 16:28:42.740 [info] [perf] Render performance baseline is 48ms
+2023-01-26 16:28:49.700 [error] Error while registering log channel file:///home/vani/.config/VSCodium/logs/20230126T162837/userDataSync.log Timed out while waiting for file to be created

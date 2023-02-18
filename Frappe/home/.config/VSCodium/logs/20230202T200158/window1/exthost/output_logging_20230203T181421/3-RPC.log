@@ -1,0 +1,11 @@
+[6:14:23 PM - INFO] [data.ts] ext(): Git extension is active
+[6:14:23 PM - INFO] Discord Rich Presence for VS Code activated.
+[6:14:23 PM - INFO] Registered Discord Rich Presence commands
+[6:14:23 PM - INFO] Successfully connected to Discord
+[6:14:23 PM - INFO] Successfully logged in to Discord with client ID 975671943300780042
+[11:28:25 PM - INFO] Reconnecting to Discord Gateway...
+[11:28:25 PM - INFO] [003] Destroyed Discord RPC client
+[11:28:25 PM - INFO] Successfully connected to Discord
+[11:28:25 PM - INFO] Successfully logged in to Discord with client ID 975671943300780042
+[12:29:51 AM - INFO] Discord Rich Presence for VS Code deactivated.
+[12:29:51 AM - INFO] [004] Destroyed Discord RPC client

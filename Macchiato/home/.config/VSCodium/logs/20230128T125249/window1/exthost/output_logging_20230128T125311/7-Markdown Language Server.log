@@ -1,0 +1,47 @@
+[Trace 17:53:19.178] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/Setup.md
+[Trace 17:53:19.179] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/Setup.md
+[Trace 17:53:19.181] Server: connection.languages.diagnostics.on: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/Setup.md
+[Trace 17:53:19.183] Server: connection.languages.diagnostics.on: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/Setup.md
+[Trace 17:53:19.254] DocumentSymbolProvider: provideDocumentSymbols — file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/Setup.md 1
+[Debug 17:53:19.255] LinkProvider: compute - file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/Setup.md
+[Debug 17:53:19.310] TableOfContentsProvider: create - file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/Setup.md
+[Debug 17:53:19.439] MdFoldingProvider: provideFoldingRanges — file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/Setup.md 1
+[Trace 17:53:28.107] VsCodeClientWorkspace: TextDocument.onDidClose: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/Setup.md
+[Trace 17:53:28.107] VsCodeClientWorkspace: deleteDocument: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/Setup.md
+[Trace 17:53:28.108] Server: connection.languages.diagnostics.on: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/Setup.md
+[Trace 17:53:28.394] VsCodeClientWorkspace: onDidChangeWatchedFiles: 3: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/Setup.md
+[Trace 17:53:29.117] Server: connection.languages.diagnostics.on: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.md
+[Trace 17:53:29.134] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.md
+[Trace 17:53:29.134] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.md
+[Trace 17:53:29.135] Server: connection.languages.diagnostics.on: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.md
+[Trace 17:53:29.135] DocumentSymbolProvider: provideDocumentSymbols — file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.md 1
+[Debug 17:53:29.135] LinkProvider: compute - file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.md
+[Trace 17:53:29.140] Server: connection.languages.diagnostics.on: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.md
+[Debug 17:53:29.141] TableOfContentsProvider: create - file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.md
+[Debug 17:53:29.324] MdFoldingProvider: provideFoldingRanges — file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.md 1
+[Trace 17:53:31.097] Server: connection.languages.diagnostics.on: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.MD
+[Trace 17:53:31.097] VsCodeClientWorkspace: TextDocument.onDidClose: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.md
+[Trace 17:53:31.097] VsCodeClientWorkspace: deleteDocument: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.md
+[Trace 17:53:31.117] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.MD
+[Trace 17:53:31.117] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.MD
+[Trace 17:53:31.117] Server: connection.languages.diagnostics.on: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.MD
+[Trace 17:53:31.117] DocumentSymbolProvider: provideDocumentSymbols — file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.MD 1
+[Debug 17:53:31.117] LinkProvider: compute - file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.MD
+[Trace 17:53:31.122] Server: connection.languages.diagnostics.on: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.MD
+[Debug 17:53:31.123] TableOfContentsProvider: create - file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.MD
+[Debug 17:53:31.303] MdFoldingProvider: provideFoldingRanges — file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.MD 1
+[Trace 17:53:32.280] Server: connection.languages.diagnostics.on: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.md
+[Trace 17:53:32.280] VsCodeClientWorkspace: TextDocument.onDidClose: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.MD
+[Trace 17:53:32.281] VsCodeClientWorkspace: deleteDocument: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.MD
+[Trace 17:53:32.306] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.md
+[Trace 17:53:32.306] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.md
+[Trace 17:53:32.307] Server: connection.languages.diagnostics.on: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.md
+[Trace 17:53:32.307] DocumentSymbolProvider: provideDocumentSymbols — file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.md 1
+[Debug 17:53:32.307] LinkProvider: compute - file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.md
+[Trace 17:53:32.311] Server: connection.languages.diagnostics.on: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.md
+[Debug 17:53:32.312] TableOfContentsProvider: create - file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.md
+[Debug 17:53:32.486] MdFoldingProvider: provideFoldingRanges — file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.md 1
+[Trace 17:53:37.901] VsCodeClientWorkspace: TextDocument.onDidClose: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.md
+[Trace 17:53:37.901] VsCodeClientWorkspace: deleteDocument: file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.md
+[Trace 18:10:19.773] DocumentSymbolProvider: provideDocumentSymbols — file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.md 0
+[Debug 18:10:19.774] TableOfContentsProvider: create - file:///home/vani/Documents/Projects/vanillyn%20site/autolibrary/README.md

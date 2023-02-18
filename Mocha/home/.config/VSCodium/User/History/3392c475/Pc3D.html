@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="libParse.js"></script>
+        <script src="jquery-csv.js"></script>
+        <link type="stylesheet" href="css/tailwind.css" />
+    </head>
+    <body>
+        <div id="content">
+            <script>
+                const csv = $.csv.toObjects(csv);
+                const json = Object.entries(csv)
+                const div = document.getElementById("content");
+                div.innerHTML = div.innerHTML + `<p>${json}</p>`
+            </script>
+        </div>
+    </body>
+</html>

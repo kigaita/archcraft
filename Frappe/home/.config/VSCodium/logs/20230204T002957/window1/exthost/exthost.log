@@ -1,0 +1,30 @@
+2023-02-04 00:29:59.721 [info] Extension host with pid 2780778 started
+2023-02-04 00:29:59.721 [info] Skipping acquiring lock for /home/vani/.config/VSCodium/User/workspaceStorage/1ce04d774a8d4a0c168079775efc176b.
+2023-02-04 00:29:59.838 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-02-04 00:29:59.838 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-02-04 00:29:59.838 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-02-04 00:29:59.839 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: true, activationEvent: '*'
+2023-02-04 00:29:59.839 [info] ExtensionService#_doActivateExtension Darkempire78.discord-tools, startup: true, activationEvent: '*'
+2023-02-04 00:29:59.839 [info] ExtensionService#_doActivateExtension HookyQR.beautify, startup: true, activationEvent: '*'
+2023-02-04 00:29:59.839 [info] ExtensionService#_doActivateExtension Janne252.fontawesome-autocomplete, startup: true, activationEvent: '*'
+2023-02-04 00:30:00.863 [info] ExtensionService#_doActivateExtension heybourn.headwind, startup: true, activationEvent: 'workspaceContains:**/tailwind.config.js'
+2023-02-04 00:30:00.863 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-02-04 00:30:00.864 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-02-04 00:30:00.978 [info] Eager extensions activated
+2023-02-04 00:30:01.005 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-02-04 00:30:01.005 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-02-04 00:30:01.005 [info] ExtensionService#_doActivateExtension 21zz.vscord, startup: false, activationEvent: 'onStartupFinished'
+2023-02-04 00:30:01.005 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2023-02-04 00:30:01.006 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2023-02-04 00:30:01.006 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2023-02-04 00:30:01.006 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onStartupFinished', root cause: esbenp.prettier-vscode
+2023-02-04 00:30:01.006 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2023-02-04 00:30:01.006 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-02-04 00:30:01.305 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2023-02-04 00:30:01.661 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-02-04 00:30:02.264 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2023-02-04 00:34:08.396 [error] [bradlc.vscode-tailwindcss] provider FAILED
+2023-02-04 00:34:08.397 [error] TypeError: Cannot read properties of null (reading 'filter')
+	at Object.<anonymous> (/home/vani/.vscode-oss/extensions/bradlc.vscode-tailwindcss-0.9.7-universal/dist/extension.js:43:11485)
+	at Generator.next (<anonymous>)
+	at s (/home/vani/.vscode-oss/extensions/bradlc.vscode-tailwindcss-0.9.7-universal/dist/extension.js:1:1247)

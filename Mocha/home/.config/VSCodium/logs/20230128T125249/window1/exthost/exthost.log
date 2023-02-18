@@ -1,0 +1,68 @@
+2023-01-28 12:52:52.206 [info] Extension host with pid 412168 started
+2023-01-28 12:52:52.627 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2023-01-28 12:52:52.628 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2023-01-28 12:52:52.628 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-01-28 12:52:52.628 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: true, activationEvent: '*'
+2023-01-28 12:52:52.628 [info] ExtensionService#_doActivateExtension Darkempire78.discord-tools, startup: true, activationEvent: '*'
+2023-01-28 12:52:52.629 [info] ExtensionService#_doActivateExtension HookyQR.beautify, startup: true, activationEvent: '*'
+2023-01-28 12:52:52.629 [info] ExtensionService#_doActivateExtension Janne252.fontawesome-autocomplete, startup: true, activationEvent: '*'
+2023-01-28 12:52:53.267 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-01-28 12:52:53.267 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-28 12:52:53.330 [info] Eager extensions activated
+2023-01-28 12:52:53.352 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-01-28 12:52:53.352 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-01-28 12:52:53.353 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-01-28 12:52:53.353 [info] ExtensionService#_doActivateExtension 21zz.vscord, startup: false, activationEvent: 'onStartupFinished'
+2023-01-28 12:52:53.353 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2023-01-28 12:52:53.353 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2023-01-28 12:52:53.353 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2023-01-28 12:52:53.354 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onStartupFinished', root cause: esbenp.prettier-vscode
+2023-01-28 12:52:53.354 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2023-01-28 12:52:53.354 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-01-28 12:52:53.562 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2023-01-28 12:52:53.626 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-01-28 12:52:53.627 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2023-01-28 12:53:10.147 [info] Extension host terminating: received terminate message from renderer
+2023-01-28 12:53:10.168 [info] Extension host with pid 412168 exiting with code 0
+2023-01-28 12:53:11.385 [info] Extension host with pid 412437 started
+2023-01-28 12:53:11.385 [info] Skipping acquiring lock for /home/vani/.config/VSCodium/User/workspaceStorage/d6ae194b8b59455c0e5b1c2a67c1f4b8.
+2023-01-28 12:53:11.523 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-01-28 12:53:11.523 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: true, activationEvent: '*'
+2023-01-28 12:53:11.523 [info] ExtensionService#_doActivateExtension Darkempire78.discord-tools, startup: true, activationEvent: '*'
+2023-01-28 12:53:11.523 [info] ExtensionService#_doActivateExtension HookyQR.beautify, startup: true, activationEvent: '*'
+2023-01-28 12:53:11.524 [info] ExtensionService#_doActivateExtension Janne252.fontawesome-autocomplete, startup: true, activationEvent: '*'
+2023-01-28 12:53:11.893 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-01-28 12:53:11.894 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-28 12:53:11.959 [info] Eager extensions activated
+2023-01-28 12:53:11.973 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-01-28 12:53:11.973 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-01-28 12:53:11.973 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-01-28 12:53:11.974 [info] ExtensionService#_doActivateExtension 21zz.vscord, startup: false, activationEvent: 'onStartupFinished'
+2023-01-28 12:53:11.974 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2023-01-28 12:53:11.974 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2023-01-28 12:53:11.974 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2023-01-28 12:53:11.974 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onStartupFinished', root cause: esbenp.prettier-vscode
+2023-01-28 12:53:11.974 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2023-01-28 12:53:11.974 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-01-28 12:53:12.129 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2023-01-28 12:53:12.195 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-01-28 12:53:14.728 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-01-28 12:53:14.984 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2023-01-28 12:53:18.891 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2023-01-28 12:53:18.891 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2023-01-28 12:53:19.280 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2023-01-28 12:53:42.863 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2023-01-28 12:53:42.863 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2023-01-28 12:53:44.363 [info] ExtensionService#_doActivateExtension janisdd.vscode-edit-csv, startup: false, activationEvent: 'onLanguage:csv'
+2023-01-28 12:54:16.026 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2023-01-28 12:54:25.070 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:https'
+2023-01-28 13:06:08.007 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1504
+2023-01-28 13:07:14.935 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1504
+2023-01-28 13:07:15.987 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1504
+2023-01-28 13:07:35.002 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1505
+2023-01-28 13:07:53.622 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1505
+2023-01-28 13:08:01.285 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1499
+2023-01-28 14:03:41.345 [info] Extension host terminating: received terminate message from renderer
+2023-01-28 14:03:41.381 [error] Error: read ECONNRESET
+	at Pipe.onStreamRead (node:internal/stream_base_commons:217:20)
+2023-01-28 14:03:41.385 [info] Extension host with pid 412437 exiting with code 0

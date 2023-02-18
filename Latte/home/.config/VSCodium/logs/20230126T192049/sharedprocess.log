@@ -1,0 +1,19 @@
+2023-01-26 19:20:52.328 [info] Starting worker process with pid 2198388 (type: fileWatcher, window: 1).
+2023-01-26 19:33:03.279 [info] Getting Manifest... janisdd.vscode-edit-csv
+2023-01-26 19:33:03.375 [info] Installing extension: janisdd.vscode-edit-csv
+2023-01-26 19:33:04.339 [info] Extracted extension to /home/vani/.vscode-oss/extensions/.d7954323-118b-4976-9768-1b9082193f9a: janisdd.vscode-edit-csv
+2023-01-26 19:33:04.346 [info] Renamed to /home/vani/.vscode-oss/extensions/janisdd.vscode-edit-csv-0.6.10-universal
+2023-01-26 19:33:04.348 [info] Extracting completed. janisdd.vscode-edit-csv
+2023-01-26 19:33:04.358 [info] Extension installed successfully: janisdd.vscode-edit-csv
+2023-01-26 19:33:08.615 [info] Getting Manifest... mechatroner.rainbow-csv
+2023-01-26 19:33:08.712 [info] Installing extension: mechatroner.rainbow-csv
+2023-01-26 19:33:09.494 [info] Extracted extension to /home/vani/.vscode-oss/extensions/.389c41a1-3153-4981-859c-a7e850cd84b3: mechatroner.rainbow-csv
+2023-01-26 19:33:09.498 [info] Renamed to /home/vani/.vscode-oss/extensions/mechatroner.rainbow-csv-3.3.0-universal
+2023-01-26 19:33:09.500 [info] Extracting completed. mechatroner.rainbow-csv
+2023-01-26 19:33:09.513 [info] Extension installed successfully: mechatroner.rainbow-csv
+2023-01-26 20:54:58.051 [info] Getting Manifest... donjayamanne.jquerysnippets
+2023-01-26 20:54:58.218 [info] Installing extension: donjayamanne.jquerysnippets
+2023-01-26 20:54:58.834 [info] Extracted extension to /home/vani/.vscode-oss/extensions/.c20ba7ad-45ae-4dba-904c-d2b2b268b638: donjayamanne.jquerysnippets
+2023-01-26 20:54:58.838 [info] Renamed to /home/vani/.vscode-oss/extensions/donjayamanne.jquerysnippets-0.0.1-universal
+2023-01-26 20:54:58.839 [info] Extracting completed. donjayamanne.jquerysnippets
+2023-01-26 20:54:58.845 [info] Extension installed successfully: donjayamanne.jquerysnippets
