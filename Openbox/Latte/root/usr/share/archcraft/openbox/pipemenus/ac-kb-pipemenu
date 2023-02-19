@@ -47,7 +47,7 @@ if [[ $1 = '--rcedit' ]]; then
     if hash exo-open &>/dev/null; then
         exo-open "$RCPATH"
     else
-        geany "$RCPATH"
+        code "$RCPATH"
     fi
     exit 0
 fi

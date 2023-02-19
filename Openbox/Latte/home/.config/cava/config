@@ -136,10 +136,10 @@
 # Only supported on ncurses and noncurses output.
 ; xaxis = none
 
-# enable alacritty synchronized updates. 1 = on, 0 = off
-# removes flickering in alacritty terminal emeulator.
+# enable  konsole synchronized updates. 1 = on, 0 = off
+# removes flickering in  konsole terminal emeulator.
 # defaults to off since the behaviour in other terminal emulators is unknown
-; alacritty_sync = 0
+;  konsole_sync = 0
 
 
 [color]

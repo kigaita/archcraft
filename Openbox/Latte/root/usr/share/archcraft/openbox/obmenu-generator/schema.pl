@@ -27,5 +27,5 @@ our $SCHEMA = [
     #{cat => ['gtk',         'GTK Applications',   'gnome-applications']},
     #{cat => ['x_xfce',      'XFCE Applications',  'applications-other']},
     #{cat => ['gnome',       'GNOME Applications', 'gnome-applications']},
-    #{cat => ['consoleonly', 'CLI Applications',   'applications-utilities']},
+    {cat => ['consoleonly', 'CLI Applications',   'applications-utilities']},
 ]

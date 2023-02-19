@@ -6082,21 +6082,21 @@ XfdesktopIconView.view .rubberband {
 }
 
 /**********
- * Thunar *
+ * nemo *
  **********/
-.thunar #location-toolbar {
+.nemo #location-toolbar {
   border-bottom: 1px solid rgba(0, 0, 0, 0.26);
 }
 
-.thunar .standard-view.frame {
+.nemo .standard-view.frame {
   border-style: none;
 }
 
-.thunar .sidebar .view:not(:selected) {
+.nemo .sidebar .view:not(:selected) {
   background-color: transparent;
 }
 
-.thunar statusbar {
+.nemo statusbar {
   margin: 0 -10px;
   padding: 0 4px;
   border-top: 1px solid rgba(0, 0, 0, 0.26);

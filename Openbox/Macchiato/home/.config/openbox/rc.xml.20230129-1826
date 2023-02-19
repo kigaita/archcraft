@@ -669,12 +669,12 @@
     <!-- Apps -->
     <keybind key="W-Return">
       <action name="Execute">
-        <command>alacritty</command>
+        <command> konsole</command>
       </action>
     </keybind>
     <keybind key="W-f">
       <action name="Execute">
-        <command>thunar</command>
+        <command>nemo</command>
       </action>
     </keybind>
     <keybind key="W-w">
@@ -684,7 +684,7 @@
     </keybind>
     <keybind key="W-e">
       <action name="Execute">
-        <command>geany</command>
+        <command>code</command>
       </action>
     </keybind>
     <!-- Rofi -->
@@ -726,17 +726,17 @@
     </keybind>
     <keybind key="C-A-v">
       <action name="Execute">
-        <command>alacritty -e vim</command>
+        <command> konsole -e vim</command>
       </action>
     </keybind>
     <keybind key="C-A-r">
       <action name="Execute">
-        <command>alacritty -e ranger</command>
+        <command> konsole -e ranger</command>
       </action>
     </keybind>
     <keybind key="C-A-h">
       <action name="Execute">
-        <command>alacritty -e htop</command>
+        <command> konsole -e htop</command>
       </action>
     </keybind>
     <!-- Misc -->

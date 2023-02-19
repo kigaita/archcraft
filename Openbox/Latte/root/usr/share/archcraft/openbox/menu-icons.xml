@@ -9,13 +9,13 @@
 <!--	<separator label="Main Menu"/>  -->
 		<item icon="&icons;/terminal.png" label="Terminal Emulator">
 			<action name="Execute">
-				<command>alacritty</command>
+				<command> konsole</command>
 			</action>
 		</item>
 		<separator/>
 		<item icon="&icons;/filemanager.png" label="File Manager">
 			<action name="Execute">
-				<command>thunar</command>
+				<command>nemo</command>
 			</action>
 		</item>
 		<separator/>
@@ -27,7 +27,7 @@
 		<separator/>
 		<item icon="&icons;/editor.png" label="Text Editor">
 			<action name="Execute">
-				<command>geany</command>
+				<command>code</command>
 			</action>
 		</item>
 		<separator/>
@@ -93,7 +93,7 @@
 			</item>
 			<item label="Appearance Settings">
 				<action name="Execute">
-					<command>xfce4-appearance-settings</command>
+					<command>lxappearance</command>
 				</action>
 			</item>
 			<item label="QT5 Settings">

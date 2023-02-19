@@ -4,9 +4,9 @@
 ##
 ## Run ncmpcpp with alternate config
 
-CONFIG="$HOME/.config/alacritty/alacritty.yml"
+CONFIG="$HOME/.config/ konsole/ konsole.yml"
 
-alacritty --class 'Music,Music' --config-file "$CONFIG" \
+ konsole --class 'Music,Music' --config-file "$CONFIG" \
 		  -o window.dimensions.columns=109 window.dimensions.lines=22 \
 		  -e ~/.ncmpcpp/scripts/ncmpcpp-art
 

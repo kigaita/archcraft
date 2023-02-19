@@ -67,7 +67,7 @@ if [[ $1 = '--edit' ]]; then # Edit picom settings
     if hash exo-open &>/dev/null; then
         exo-open "$HOME/.config/picom.conf"
     else
-        geany "$HOME/.config/picom.conf"
+        code "$HOME/.config/picom.conf"
     fi
 
 elif [[ $1 = '--start' ]]; then
