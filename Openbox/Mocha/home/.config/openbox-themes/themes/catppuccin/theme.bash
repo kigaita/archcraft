@@ -5,16 +5,16 @@
 # ------------------------------------------------------------------------------
 
 # Colors
-background='#24273a'
-foreground='#cad3f5'
+background='#1e1e2e'
+foreground='#cdd6f4'
 color0='#181926'
-color1='#ed8796'
-color2='#a6da95'
-color3='#eed49f'
-color4='#8aadf4'
-color5='#c6a0f6'
-color6='#7dc4e4'
-color7='#f8f8f2'
+color1='#f38ba8'
+color2='#a6e3a1'
+color3='#f9e2af'
+color4='#89b4fa'
+color5='#cba6f7'
+color6='#89dceb'
+color7='#cdd6f4'
 color8='#181926'
 color9='#ed8796'
 color10='#a6da95'
@@ -22,7 +22,7 @@ color11='#eed49f'
 color12='#8aadf4'
 color13='#c6a0f6'
 color14='#7dc4e4'
-color15='#f8f8f2'
+color15='#9399b2'
 
 accent='#8087a2'
 light_value='0.05'
@@ -42,10 +42,6 @@ rofi_icon='Zafiro'
 # Terminal
 terminal_font_name='JetBrainsMono Nerd Font'
 terminal_font_size='10'
-
-# Geany
-geany_colors='manhattan.conf'
-geany_font='JetBrains Mono 10'
 
 # Appearance
 gtk_font='Noto Sans 9'
@@ -72,14 +68,6 @@ dunst_origin='top-right'
 dunst_font='JetBrains Mono 10'
 dunst_border='0'
 dunst_separator='2'
-
-# Plank
-plank_hmode='intelligent'
-plank_offset='0'
-plank_position='bottom'
-plank_theme='Transparent'
-plank_icon_size='32'
-plank_zoom_percent='120'
 
 # Picom
 picom_backend='glx'

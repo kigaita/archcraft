@@ -216,37 +216,6 @@ apply_dunst() {
 	pkill dunst && dunst &
 }
 
-# Plank -------------------------------------
-apply_plank() {
-	# create temporary config file
-	cat > "$HOME"/.cache/plank.conf <<- _EOF_
-		[dock1]
-		alignment='center'
-		auto-pinning=true
-		current-workspace-only=false
-		dock-items=['xfce-settings-manager.dockitem', 'Alacritty.dockitem', 'thunar.dockitem', 'firefox.dockitem', 'geany.dockitem']
-		hide-delay=0
-		hide-mode='$plank_hmode'
-		icon-size=$plank_icon_size
-		items-alignment='center'
-		lock-items=false
-		monitor=''
-		offset=$plank_offset
-		pinned-only=false
-		position='$plank_position'
-		pressure-reveal=false
-		show-dock-item=false
-		theme='$plank_theme'
-		tooltips-enabled=true
-		unhide-delay=0
-		zoom-enabled=true
-		zoom-percent=$plank_zoom_percent
-	_EOF_
-
-	# apply config and reload plank
-	cat "$HOME"/.cache/plank.conf | dconf load /net/launchpad/plank/docks/
-}
-
 # Compositor --------------------------------
 apply_compositor() {
 	picom_cfg="$PATH_CONF/picom.conf"
@@ -284,11 +253,9 @@ apply_wallpaper
 apply_polybar
 apply_rofi
 apply_netmenu
-apply_geany
 apply_appearance
 apply_obconfig
 apply_dunst
-apply_plank
 apply_compositor
 
 # fix cursor theme (run it in the end)
