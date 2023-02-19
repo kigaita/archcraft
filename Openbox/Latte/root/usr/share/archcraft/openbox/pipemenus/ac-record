@@ -5,7 +5,7 @@
 ## Openbox Pipemenu to Record Screen with slop and ffmpeg
 
 # Variables and functions
-MENUS_LIBDIR='/usr/share/vanillyn/openbox/menulib'
+MENUS_LIBDIR='/usr/share/archcraft/openbox/menulib'
 if ! . "$MENUS_LIBDIR/archcraft.cfg" 2> /dev/null; then
 	echo "Error: Failed to locate archcraft.cfg in $MENUS_LIBDIR" >&2
 	exit 1
@@ -24,7 +24,7 @@ fi
 
 # notify
 notify_user () {
-	notify_cmd="dunstify -u low -h string:x-dunst-stack-tag:obscreenrecord -i /usr/share/vanillyn/icons/dunst/video.png"
+	notify_cmd="dunstify -u low -h string:x-dunst-stack-tag:obscreenrecord -i /usr/share/archcraft/icons/dunst/video.png"
 	if [[ -e "$dir/$file" ]]; then
 		${notify_cmd} "Saved in $dir"
 	else
@@ -35,7 +35,7 @@ notify_user () {
 # countdown
 countdown () {
 	for sec in `seq $1 -1 1`; do
-		dunstify -t 1000 -h string:x-dunst-stack-tag:screenrecordtimer -i /usr/share/vanillyn/icons/dunst/timer.png "Starting in : $sec"
+		dunstify -t 1000 -h string:x-dunst-stack-tag:screenrecordtimer -i /usr/share/archcraft/icons/dunst/timer.png "Starting in : $sec"
 		sleep 1
 	done
 }

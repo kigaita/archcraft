@@ -5,7 +5,7 @@
 ## Script to manage brightness on Archcraft.
 
 # Icons
-iDIR='/usr/share/vanillyn/icons/dunst'
+iDIR='/usr/share/archcraft/icons/dunst'
 
 # Graphics card
 CARD=`ls /sys/class/backlight | head -n 1`

@@ -5,7 +5,7 @@
 ## Openbox Pipemenu to take screenshots with maim
 
 # Variables and functions
-MENUS_LIBDIR='/usr/share/vanillyn/openbox/menulib'
+MENUS_LIBDIR='/usr/share/archcraft/openbox/menulib'
 if ! . "$MENUS_LIBDIR/archcraft.cfg" 2> /dev/null; then
 	echo "Error: Failed to locate archcraft.cfg in $MENUS_LIBDIR" >&2
 	exit 1
@@ -24,7 +24,7 @@ fi
 
 # notify and view screenshot
 notify_view () {
-	notify_cmd_shot='dunstify -u low -h string:x-dunst-stack-tag:obscreenshot -i /usr/share/vanillyn/icons/dunst/picture.png'
+	notify_cmd_shot='dunstify -u low -h string:x-dunst-stack-tag:obscreenshot -i /usr/share/archcraft/icons/dunst/picture.png'
 	${notify_cmd_shot} "Copied to clipboard."
 	paplay /usr/share/sounds/freedesktop/stereo/screen-capture.oga &>/dev/null &
 	viewnior ${dir}/"$file"
@@ -43,7 +43,7 @@ copy_shot () {
 # countdown
 countdown () {
 	for sec in `seq $1 -1 1`; do
-		dunstify -t 1000 -h string:x-dunst-stack-tag:screenshottimer -i /usr/share/vanillyn/icons/dunst/timer.png "Taking shot in : $sec"
+		dunstify -t 1000 -h string:x-dunst-stack-tag:screenshottimer -i /usr/share/archcraft/icons/dunst/timer.png "Taking shot in : $sec"
 		sleep 1
 	done
 }
