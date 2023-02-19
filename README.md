@@ -6,3 +6,30 @@
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vanillyn/catppuccin-archcraft/main/assets/archcraft.png"/>
+</p>
+
+## Previews
+
+<details>
+<summary>🌻 Latte</summary>
+  <img src="https://raw.githubusercontent.com/vanillyn/catppuccin-archcraft/main/assets/previews/latte.png"/>
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+  <img src="https://raw.githubusercontent.com/vanillyn/catppuccin-archcraft/main/assets/previews/frappe.png"/>
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+  <img src="https://raw.githubusercontent.com/vanillyn/catppuccin-archcraft/main/assets/previews/macchiato.png"/>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+  <img src="https://raw.githubusercontent.com/vanillyn/catppuccin-archcraft/main/assets/previews/mocha.png"/>
+</details>
+
+## Installation
+
+> Install scripts are unfinished.
