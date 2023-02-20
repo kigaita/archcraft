@@ -13,9 +13,9 @@ altforeground="`pastel color $foreground | pastel darken $dark_value | pastel fo
 
 ## Directories ------------------------------
 PATH_CONF="$HOME/.config"
-PATH_TERM="$PATH_CONF/ konsole"
+PATH_TERM="$PATH_CONF/alacritty"
 PATH_DUNST="$PATH_CONF/dunst"
-PATH_code="$PATH_CONF/code"
+PATH_GEANY="$PATH_CONF/geany"
 PATH_OBOX="$PATH_CONF/openbox"
 PATH_OBTS="$PATH_CONF/openbox-themes"
 PATH_PBAR="$PATH_OBTS/themes/$THEME/polybar"
@@ -43,20 +43,19 @@ apply_polybar() {
 
 BACKGROUND = #303446
 FOREGROUND = #c6d0f5
-ALTBACKGROUND = #303446
-ALTFOREGROUND = #8caaee
-ACCENT = #f4b8e4
+ALTBACKGROUND = #292c3c
+ALTFOREGROUND = #f4b8e4
+ACCENT = #51576d
 
 BLACK = #232634
 RED = #e78284
-PINK = #f4b8e4
 GREEN = #a6d189
 YELLOW = #e5c890
 BLUE = #8caaee
 MAGENTA = #ca9ee6
 CYAN = #81c8be
-WHITE = #c6d0f5
-ALTBLACK = #12141b
+WHITE = #f8f8f2
+ALTBLACK = #232634
 ALTRED = #e78284
 ALTGREEN = #a6d189
 ALTYELLOW = #e5c890
@@ -226,7 +225,7 @@ apply_plank() {
 		alignment='center'
 		auto-pinning=true
 		current-workspace-only=false
-		dock-items=['xfce-settings-manager.dockitem', ' konsole.dockitem', 'nemo.dockitem', 'firefox.dockitem', 'code.dockitem']
+		dock-items=['xfce-settings-manager.dockitem', 'Alacritty.dockitem', 'thunar.dockitem', 'firefox.dockitem', 'geany.dockitem']
 		hide-delay=0
 		hide-mode='$plank_hmode'
 		icon-size=$plank_icon_size
@@ -286,7 +285,7 @@ apply_wallpaper
 apply_polybar
 apply_rofi
 apply_netmenu
-apply_code
+apply_geany
 apply_appearance
 apply_obconfig
 apply_dunst
