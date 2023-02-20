@@ -129,10 +129,10 @@ apply_obconfig () {
 	config="$PATH_OBOX/rc.xml"
 
 	# Theme
-	xmlstarlet ed -L -N a="$namespace" -u '/a:openbox_config/a:theme/a:name' -v "$THEME" "$config"
+xmlstarlet ed -L -u '_:openbox_config/_:theme/_:name' --value "$THEME" "$config"
 
 	# Title
-	xmlstarlet ed -L -N a="$namespace" -u '/a:openbox_config/a:theme/a:titleLayout' -v "$LAYOUT" "$config"
+xmlstarlet ed -L -u '_:openbox_config/_:theme/_:name' --value "LIMC" "$config"
 
 	# Fonts
 	xmlstarlet ed -L -N a="$namespace" -u '/a:openbox_config/a:theme/a:font[@place="ActiveWindow"]/a:name' -v "$ob_font" "$config"

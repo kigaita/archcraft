@@ -124,11 +124,14 @@ apply_appearance() {
 
 # Openbox -----------------------------------
 apply_obconfig () {
-namespace="http://icculus.org/openbox/3.4/rc"
-RC="$PATH_OBOX/rc.xml"
-    xmlstarlet ed -L -N a="$namespace" -u '/a:openbox_config/a:theme/a:name' -v "$THEME" "$RC"
-	xmlstarlet ed -L -N a="$namespace" -u '/a:openbox_config/a:theme/a:titleLayout' -v "LIMC" "$RC"
+	namespace="http://icculus.org/openbox/3.4/rc"
+	config="$PATH_OBOX/rc.xml"
 
+	# Theme
+xmlstarlet ed -L -u '_:openbox_config/_:theme/_:name' --value "$THEME" "$config"
+
+	# Title
+xmlstarlet ed -L -u '_:openbox_config/_:theme/_:name' --value "LIMC" "$config"
 	# Fonts
 	xmlstarlet ed -L -N a="$namespace" -u '/a:openbox_config/a:theme/a:font[@place="ActiveWindow"]/a:name' -v "$ob_font" "$config"
 	xmlstarlet ed -L -N a="$namespace" -u '/a:openbox_config/a:theme/a:font[@place="ActiveWindow"]/a:size' -v "$ob_font_size" "$config"
