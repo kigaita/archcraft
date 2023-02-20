@@ -5,7 +5,7 @@
 
 ## Theme ------------------------------------
 TDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
-THEME="${TDIR##*/}"
+THEME="Catppuccin-Frappe"
 
 source "$HOME"/.config/openbox-themes/themes/"$THEME"/theme.bash
 altbackground="`pastel color $background | pastel lighten $light_value | pastel format hex`"
@@ -113,7 +113,7 @@ apply_netmenu() {
 apply_appearance() {
 	# apply gtk theme, icons, cursor & fonts
 	xfconf-query -c xsettings -p /Gtk/FontName -s "$gtk_font"
-	xfconf-query -c xsettings -p /Net/ThemeName -s "$gtk_theme"
+	xfconf-query -c xsettings -p /Net/ThemeName -s "$THEME"
 	xfconf-query -c xsettings -p /Net/IconThemeName -s "$icon_theme"
 	xfconf-query -c xsettings -p /Gtk/CursorThemeName -s "$cursor_theme"
 	
@@ -125,14 +125,14 @@ apply_appearance() {
 
 # Openbox -----------------------------------
 apply_obconfig () {
-	namespace="http://openbox.org/3.4/rc"
+	namespace="http://icculus.org/openbox/3.4/rc"
 	config="$PATH_OBOX/rc.xml"
 
 	# Theme
-	xmlstarlet ed -L -N a="$namespace" -u '/a:openbox_config/a:theme/a:name' -v "$ob_theme" "$config"
+	xmlstarlet ed -L -N a="$namespace" -u '/a:openbox_config/a:theme/a:name' -v "$THEME" "$config"
 
 	# Title
-	xmlstarlet ed -L -N a="$namespace" -u '/a:openbox_config/a:theme/a:titleLayout' -v "$ob_layout" "$config"
+	xmlstarlet ed -L -N a="$namespace" -u '/a:openbox_config/a:theme/a:titleLayout' -v "$LAYOUT" "$config"
 
 	# Fonts
 	xmlstarlet ed -L -N a="$namespace" -u '/a:openbox_config/a:theme/a:font[@place="ActiveWindow"]/a:name' -v "$ob_font" "$config"
@@ -289,7 +289,6 @@ apply_geany
 apply_appearance
 apply_obconfig
 apply_dunst
-apply_plank
 apply_compositor
 
 # fix cursor theme (run it in the end)

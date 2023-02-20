@@ -5,7 +5,7 @@
 
 ## Theme ------------------------------------
 TDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
-THEME="${TDIR##*/}"
+THEME="Catppuccin-Macchiato"
 
 source "$HOME"/.config/openbox-themes/themes/"$THEME"/theme.bash
 altbackground="`pastel color $background | pastel lighten $light_value | pastel format hex`"
@@ -112,7 +112,7 @@ apply_netmenu() {
 apply_appearance() {
 	# apply gtk theme, icons, cursor & fonts
 	xfconf-query -c xsettings -p /Gtk/FontName -s "$gtk_font"
-	xfconf-query -c xsettings -p /Net/ThemeName -s "$gtk_theme"
+	xfconf-query -c xsettings -p /Net/ThemeName -s "$THEME"
 	xfconf-query -c xsettings -p /Net/IconThemeName -s "$icon_theme"
 	xfconf-query -c xsettings -p /Gtk/CursorThemeName -s "$cursor_theme"
 	
@@ -124,14 +124,10 @@ apply_appearance() {
 
 # Openbox -----------------------------------
 apply_obconfig () {
-	namespace="http://openbox.org/3.4/rc"
-	config="$PATH_OBOX/rc.xml"
-
-	# Theme
-	xmlstarlet ed -L -N a="$namespace" -u '/a:openbox_config/a:theme/a:name' -v "$ob_theme" "$config"
-
-	# Title
-	xmlstarlet ed -L -N a="$namespace" -u '/a:openbox_config/a:theme/a:titleLayout' -v "$ob_layout" "$config"
+namespace="	ope"
+  RC="$PATH_OBOX/rc.xml"
+    xmlstarlet ed -L -N a="$namespace" -u '/a:openbox_config/a:theme/a:name' -v "$THEME" "$RC"
+	xmlstarlet ed -L -N a="$namespace" -u '/a:openbox_config/a:theme/a:titleLayout' -v "LIMC" "$RC"
 
 	# Fonts
 	xmlstarlet ed -L -N a="$namespace" -u '/a:openbox_config/a:theme/a:font[@place="ActiveWindow"]/a:name' -v "$ob_font" "$config"

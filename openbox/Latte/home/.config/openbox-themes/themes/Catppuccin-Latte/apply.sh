@@ -5,7 +5,7 @@
 
 ## Theme ------------------------------------
 TDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
-THEME="Catppuccin-Mocha"
+THEME="Catppuccin-Latte"
 
 source "$HOME"/.config/openbox-themes/themes/"$THEME"/theme.bash
 altbackground="`pastel color $background | pastel lighten $light_value | pastel format hex`"
@@ -13,9 +13,9 @@ altforeground="`pastel color $foreground | pastel darken $dark_value | pastel fo
 
 ## Directories ------------------------------
 PATH_CONF="$HOME/.config"
-PATH_TERM="$PATH_CONF/alacritty"
+PATH_TERM="$PATH_CONF/ konsole"
 PATH_DUNST="$PATH_CONF/dunst"
-PATH_GEANY="$PATH_CONF/geany"
+PATH_code="$PATH_CONF/code"
 PATH_OBOX="$PATH_CONF/openbox"
 PATH_OBTS="$PATH_CONF/openbox-themes"
 PATH_PBAR="$PATH_OBTS/themes/$THEME/polybar"
@@ -39,30 +39,32 @@ apply_polybar() {
 
 	# rewrite colors file
 	cat > ${PATH_PBAR}/colors.ini <<- EOF
-		[color]
-		
-		BACKGROUND = ${background}
-		FOREGROUND = ${foreground}
-		ALTBACKGROUND = ${altbackground}
-		ALTFOREGROUND = ${altforeground}
-		ACCENT = ${accent}
-		
-		BLACK = ${color0}
-		RED = ${color1}
-		GREEN = ${color2}
-		YELLOW = ${color3}
-		BLUE = ${color4}
-		MAGENTA = ${color5}
-		CYAN = ${color6}
-		WHITE = ${color7}
-		ALTBLACK = ${color8}
-		ALTRED = ${color9}
-		ALTGREEN = ${color10}
-		ALTYELLOW = ${color11}
-		ALTBLUE = ${color12}
-		ALTMAGENTA = ${color13}
-		ALTCYAN = ${color14}
-		ALTWHITE = ${color15}
+[color]
+
+BACKGROUND = #eff1f5
+FOREGROUND = #4c4f69
+ALTBACKGROUND = #e4e9f5
+ALTFOREGROUND = #45485f
+ACCENT = #d20f39
+
+BLACK = #e6e9ef
+RED = #d20f39
+GREEN = #40a02b
+YELLOW = #df8e1d
+PINK = #ea76cb
+BLUE = #1e66f5
+MAGENTA = #8839ef
+CYAN = #179299
+WHITE = #eff1f5
+ALTBLACK = #e6e9ef
+ALTRED = #d20f39
+ALTGREEN = #40a02b
+ALTYELLOW = #df8e1d
+ALTBLUE = #1e66f5
+ALTMAGENTA = #8839ef
+ALTCYAN = #179299
+ALTWHITE = #eff1f5
+
 	EOF
 
 	# launch polybar
@@ -112,8 +114,8 @@ apply_netmenu() {
 apply_appearance() {
 	# apply gtk theme, icons, cursor & fonts
 	xfconf-query -c xsettings -p /Gtk/FontName -s "$gtk_font"
-	xfconf-query -c xsettings -p /Net/ThemeName -s "Catppuccin-Mocha"
-	xfconf-query -c xsettings -p /Net/IconThemeName -s "Zafiro-Nord-Black-BLue"
+	xfconf-query -c xsettings -p /Net/ThemeName -s "$THEME"
+	xfconf-query -c xsettings -p /Net/IconThemeName -s "$icon_theme"
 	xfconf-query -c xsettings -p /Gtk/CursorThemeName -s "$cursor_theme"
 	
 	# inherit cursor theme
@@ -125,7 +127,7 @@ apply_appearance() {
 # Openbox -----------------------------------
 apply_obconfig () {
 namespace="http://icculus.org/openbox/3.4/rc"
-RC="$PATH_OBOX/rc.xml"
+  RC="$PATH_OBOX/rc.xml"
     xmlstarlet ed -L -N a="$namespace" -u '/a:openbox_config/a:theme/a:name' -v "$THEME" "$RC"
 	xmlstarlet ed -L -N a="$namespace" -u '/a:openbox_config/a:theme/a:titleLayout' -v "LIMC" "$RC"
 
@@ -212,6 +214,37 @@ apply_dunst() {
 	pkill dunst && dunst &
 }
 
+# Plank -------------------------------------
+apply_plank() {
+	# create temporary config file
+	cat > "$HOME"/.cache/plank.conf <<- _EOF_
+		[dock1]
+		alignment='center'
+		auto-pinning=true
+		current-workspace-only=false
+		dock-items=['xfce-settings-manager.dockitem', ' konsole.dockitem', 'nemo.dockitem', 'firefox.dockitem', 'code.dockitem']
+		hide-delay=0
+		hide-mode='$plank_hmode'
+		icon-size=$plank_icon_size
+		items-alignment='center'
+		lock-items=false
+		monitor=''
+		offset=$plank_offset
+		pinned-only=false
+		position='$plank_position'
+		pressure-reveal=false
+		show-dock-item=false
+		theme='$plank_theme'
+		tooltips-enabled=true
+		unhide-delay=0
+		zoom-enabled=true
+		zoom-percent=$plank_zoom_percent
+	_EOF_
+
+	# apply config and reload plank
+	cat "$HOME"/.cache/plank.conf | dconf load /net/launchpad/plank/docks/
+}
+
 # Compositor --------------------------------
 apply_compositor() {
 	picom_cfg="$PATH_CONF/picom.conf"
@@ -249,9 +282,11 @@ apply_wallpaper
 apply_polybar
 apply_rofi
 apply_netmenu
+apply_code
 apply_appearance
 apply_obconfig
 apply_dunst
+apply_plank
 apply_compositor
 
 # fix cursor theme (run it in the end)
