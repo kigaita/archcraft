@@ -6,33 +6,33 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/vanillyn/catppuccin-archcraft/stargazers"><img src="https://img.shields.io/github/stars/vanillyn/catppuccin-archcraft?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/vanillyn/catppuccin-archcraft/issues"><img src="https://img.shields.io/github/issues/vanillyn/catppuccin-archcraft?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/vanillyn/catppuccin-archcraft/contributors"><img src="https://img.shields.io/github/contributors/vanillyn/catppuccin-archcraft?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/archcraft/stargazers"><img src="https://img.shields.io/github/stars/vanillyn/catppuccin-archcraft?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/archcraft/issues"><img src="https://img.shields.io/github/issues/vanillyn/catppuccin-archcraft?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/archcraft/contributors"><img src="https://img.shields.io/github/contributors/vanillyn/catppuccin-archcraft?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vanillyn/catppuccin-archcraft/main/images/archcraft.png"/>
+  <img src="https://raw.githubusercontent.com/catppuccin/archcraft/main/images/archcraft.png"/>
 </p>
 
 ## Previews
 
 <details>
 <summary>🌻 Latte</summary>
-  <img src="https://raw.githubusercontent.com/vanillyn/catppuccin-archcraft/main/images/previews/latte.png"/>
+  <img src="https://raw.githubusercontent.com/catppuccin/archcraft/main/images/previews/latte.png"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-  <img src="https://raw.githubusercontent.com/vanillyn/catppuccin-archcraft/main/images/previews/frappe.png"/>
+  <img src="https://raw.githubusercontent.com/catppuccin/archcraft/main/images/previews/frappe.png"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-  <img src="https://raw.githubusercontent.com/vanillyn/catppuccin-archcraft/main/images/previews/macchiato.png"/>
+  <img src="https://raw.githubusercontent.com/catppuccin/archcraft/main/images/previews/macchiato.png"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-  <img src="https://raw.githubusercontent.com/vanillyn/catppuccin-archcraft/main/images/previews/mocha.png"/>
+  <img src="https://raw.githubusercontent.com/catppuccin/archcraft/main/images/previews/mocha.png"/>
 </details>
 
 ## Usage (openbox)
