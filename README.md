@@ -43,7 +43,7 @@
   4. Change between themes by right clicking desktop and going to Preferences > Change Style
 
 ## 🙋 FAQ
-- Q: *"The openbox theme didn't update, what do I do?"*
+- Q: *"The openbox theme didn't update, what do I do?"*<br>
    A: Run `lxappearance` and configure the theme if broken
 
 ## 💝 Thanks to
