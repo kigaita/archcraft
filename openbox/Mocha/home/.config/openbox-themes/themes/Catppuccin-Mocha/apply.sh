@@ -66,7 +66,7 @@ apply_polybar() {
 	EOF
 
 	# launch polybar
-	bash ${PATH_OBTS}/themes/polybar.sh
+	bash ${PATH_OBTS}/themes/polybar.sh &
 }
 
 # Rofi --------------------------------------

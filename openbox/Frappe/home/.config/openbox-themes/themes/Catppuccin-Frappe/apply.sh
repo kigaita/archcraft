@@ -67,7 +67,7 @@ ALTWHITE = #c6d0f5
 	EOF
 
 	# launch polybar
-	bash ${PATH_OBTS}/themes/polybar.sh
+	bash ${PATH_OBTS}/themes/polybar.sh &
 }
 
 # Rofi --------------------------------------
