@@ -31,23 +31,9 @@ exec dunst &
 ## Start Music Player Daemon
 exec mpd &
 
-## Launch Plank
-exec plank &
-
 ## nemo Daemon
 exec nemo --daemon &
 
 ## Enable Super Keys For Menu
 ksuperkey -e 'Super_L=Alt_L|F1' &
 ksuperkey -e 'Super_R=Alt_L|F1' &
-
-## Open Terminals
-terminator -x cava &
-terminator -x ncmpcpp &
-terminator -x pipes.sh -p 99 -t 6 -r 0 &
-terminator -x neofetch --off | less -rc~ &
-
-## Open Apps
-armcord &
-firefox &
-steam &
