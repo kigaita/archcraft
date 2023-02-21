@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo "Select your flavor"
-select fl in "Mocha" "Frappe" "Macchiato" "Latte" "All"; do
+select fl in "Mocha" "Frappe" "Macchiato" "Latte"; do
     case "$fl" in
         "Mocha")
             FLAVOR="Mocha";
@@ -15,14 +15,7 @@ select fl in "Mocha" "Frappe" "Macchiato" "Latte" "All"; do
         "Latte")
             FLAVOR="Latte";
             ;;
-        "All")
-            ./install-all.sh;
-            ;;
     esac
-    if [[ "$fl" = "All" ]]
-    then
-        break
-    fi
     THEME="Catppuccin-$FLAVOR"
     echo Copying files
     cp -rv "../$FLAVOR/home/.config" ~

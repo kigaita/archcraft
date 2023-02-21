@@ -35,7 +35,7 @@
   <img src="https://raw.githubusercontent.com/catppuccin/archcraft/main/images/previews/mocha.png"/>
 </details>
 
-## Usage (openbox)
+## Usage
 
   1. Clone this repository locally
   2. Run openbox/scripts/setup.sh
@@ -46,9 +46,13 @@
 - Q: *"The openbox theme didn't update, what do I do?"*<br>
    A: Run `lxappearance` and configure the theme if broken
 
+- Q: *"The theme isn't applying to my WM"*<br>
+   A: This is a theme for Archcraft Openbox.
+
 ## 💝 Thanks to
 
 - [Vanillyn](https://github.com/vanillyn)
+- [nyxkrage](https://github.com/nyxkrage)
 
 &nbsp;
 
