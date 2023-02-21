@@ -43,19 +43,15 @@ rofi_icon='Zafiro'
 terminal_font_name='JetBrainsMono Nerd Font'
 terminal_font_size='10'
 
-# code
-code_colors='manhattan.conf'
-code_font='JetBrains Mono 10'
-
 # Appearance
 gtk_font='Noto Sans 9'
-gtk_theme='catppuccin'
+gtk_theme='Catppuccin-Macchiato'
 icon_theme='Catppuccin'
 cursor_theme='Qogirr-Dark'
 
 # Openbox
-ob_theme='catppuccin'
-ob_layout='NLIMC'
+ob_theme='Catppuccin-Macchiato'
+ob_layout='LIMC'
 ob_font='JetBrains Mono'
 ob_font_size='9'
 ob_menu='menu-icons.xml'
@@ -73,13 +69,6 @@ dunst_font='JetBrains Mono 10'
 dunst_border='0'
 dunst_separator='2'
 
-# Plank
-plank_hmode='intelligent'
-plank_offset='0'
-plank_position='bottom'
-plank_theme='Transparent'
-plank_icon_size='32'
-plank_zoom_percent='120'
 
 # Picom
 picom_backend='glx'

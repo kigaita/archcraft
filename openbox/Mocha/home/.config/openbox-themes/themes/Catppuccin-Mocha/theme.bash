@@ -49,13 +49,13 @@ geany_font='JetBrains Mono 10'
 
 # Appearance
 gtk_font='Noto Sans 9'
-gtk_theme='catppuccin'
+gtk_theme='Catppuccin-Mocha'
 icon_theme='Catppuccin'
 cursor_theme='Qogirr-Dark'
 
 # Openbox
-ob_theme='catppuccin'
-ob_layout='NLIMC'
+ob_theme='Catppuccin-Mocha'
+ob_layout='LIMC'
 ob_font='JetBrains Mono'
 ob_font_size='9'
 ob_menu='menu-icons.xml'
