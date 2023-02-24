@@ -60,7 +60,9 @@
 ## 💝 Thanks to
 
 - [Vanillyn](https://github.com/vanillyn)
-- [nyxkrage](https://github.com/nyxkrage)
+- [nyxkrage](https://github.com/nyxkrage) (install script)
+- [nekowinston](https://github.com/nekowinston) (install script)
+- Lamp (macchiato)
 
 &nbsp;
 
