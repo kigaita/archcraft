@@ -4,7 +4,6 @@
 # vanillyn, nekowinston
 
 # GTK Installation
-gtkdir=$(pwd)/tmp
 
 echo "Select your flavor"
 select fl in "Mocha" "Frappe" "Macchiato" "Latte"; do
@@ -30,13 +29,16 @@ select fl in "Mocha" "Frappe" "Macchiato" "Latte"; do
 
         cd tmp || exii
         pip install catppuccin
-            python3 ./install.py "${FLAVOR,,}" --accent pink --dest "${gtkdir}/dist"
-            cp -r "dist/Catppuccin-$FLAVOR-Standard-Pink-$VALUE" "dist/Catppuccin-$FLAVOR"
+        
+        gtkdir=$(pwd)/tmp
+        python3 ./install.py "${FLAVOR,,}" --accent pink --dest "${gtkdir}/dist"
+        cp -r "dist/Catppuccin-$FLAVOR-Standard-Pink-$VALUE" "dist/Catppuccin-$FLAVOR"
 
     echo "x------ Copying GTK theme ------x"
         sudo cp -r "dist/$THEME" "/usr/share/themes"
         cd ..
         rm -rf tmp/
+
     echo "x------ Running start script ------x"
         ~/.config/openbox-themes/themes/$THEME/apply.sh
     break
