@@ -39,34 +39,31 @@ apply_polybar() {
 
 	# rewrite colors file
 	cat > ${PATH_PBAR}/colors.ini <<- EOF
-[color]
-
-BACKGROUND = #eff1f5
-FOREGROUND = #4c4f69
-ALTBACKGROUND = #e4e9f5
-ALTFOREGROUND = #45485f
-ACCENT = #d20f39
-
-BLACK = #e6e9ef
-RED = #d20f39
-GREEN = #40a02b
-YELLOW = #df8e1d
-PINK = #ea76cb
-BLUE = #1e66f5
-MAGENTA = #8839ef
-CYAN = #179299
-WHITE = #eff1f5
-ALTBLACK = #e6e9ef
-ALTRED = #d20f39
-ALTGREEN = #40a02b
-ALTYELLOW = #df8e1d
-ALTBLUE = #1e66f5
-ALTMAGENTA = #8839ef
-ALTCYAN = #179299
-ALTWHITE = #eff1f5
-
+		[color]
+		
+		BACKGROUND = ${background}
+		FOREGROUND = ${foreground}
+		ALTBACKGROUND = ${altbackground}
+		ALTFOREGROUND = ${altforeground}
+		ACCENT = ${accent}
+		
+		BLACK = ${color0}
+		RED = ${color1}
+		GREEN = ${color2}
+		YELLOW = ${color3}
+		BLUE = ${color4}
+		MAGENTA = ${color5}
+		CYAN = ${color6}
+		WHITE = ${color7}
+		ALTBLACK = ${color8}
+		ALTRED = ${color9}
+		ALTGREEN = ${color10}
+		ALTYELLOW = ${color11}
+		ALTBLUE = ${color12}
+		ALTMAGENTA = ${color13}
+		ALTCYAN = ${color14}
+		ALTWHITE = ${color15}
 	EOF
-
 	# launch polybar
 	bash ${PATH_OBTS}/themes/polybar.sh &
 }

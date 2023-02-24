@@ -39,31 +39,30 @@ apply_polybar() {
 
 	# rewrite colors file
 	cat > ${PATH_PBAR}/colors.ini <<- EOF
-[color]
-
-BACKGROUND = #303446
-FOREGROUND = #c6d0f5
-ALTBACKGROUND = #292c3c
-ALTFOREGROUND = #f4b8e4
-ACCENT = #51576d
-
-BLACK = #232634
-RED = #e78284
-GREEN = #a6d189
-YELLOW = #e5c890
-BLUE = #8caaee
-MAGENTA = #ca9ee6
-CYAN = #81c8be
-WHITE = #f8f8f2
-ALTBLACK = #232634
-ALTRED = #e78284
-ALTGREEN = #a6d189
-ALTYELLOW = #e5c890
-ALTBLUE = #8caaee
-ALTMAGENTA = #ca9ee6
-ALTCYAN = #81c8be
-ALTWHITE = #c6d0f5
-
+		[color]
+		
+		BACKGROUND = ${background}
+		FOREGROUND = ${foreground}
+		ALTBACKGROUND = ${altbackground}
+		ALTFOREGROUND = ${altforeground}
+		ACCENT = ${accent}
+		
+		BLACK = ${color0}
+		RED = ${color1}
+		GREEN = ${color2}
+		YELLOW = ${color3}
+		BLUE = ${color4}
+		MAGENTA = ${color5}
+		CYAN = ${color6}
+		WHITE = ${color7}
+		ALTBLACK = ${color8}
+		ALTRED = ${color9}
+		ALTGREEN = ${color10}
+		ALTYELLOW = ${color11}
+		ALTBLUE = ${color12}
+		ALTMAGENTA = ${color13}
+		ALTCYAN = ${color14}
+		ALTWHITE = ${color15}
 	EOF
 
 	# launch polybar
