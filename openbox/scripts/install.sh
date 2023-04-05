@@ -20,24 +20,23 @@ select fl in "Mocha" "Frappe" "Macchiato" "Latte"; do
 
     echo "x------ Copying files ------x"
      cp -rv "../$FLAVOR/.config" ~
-     cp "../$FLAVOR/Wallpapers" ~/Pictures
-
+     cp -rv "../$FLAVOR/Wallpapers" ~/Pictures
     echo "x------ Installing GTK theme ------x"
-        git clone https://github.com/catppuccin/gtk tmp
+        git clone https://github.com/catppuccin/gtk tmp -q --recursive
 
         cd tmp || exit
         pip install catppuccin
-
-        gtkdir=$(pwd)/tmp
-        python3 ./install.py "${FLAVOR,,}" --accent pink --dest "${gtkdir}/dist"
-        cp -r "dist/Catppuccin-$FLAVOR-Standard-Pink-$VALUE" "dist/Catppuccin-$FLAVOR"
+        python3 ./install.py "${FLAVOR,,}" --accent red
+        mkdir dist
+        cp -r "$HOME/.themes/Catppuccin-$FLAVOR-Standard-Red-$VALUE" "dist/$THEME"
 
     echo "x------ Copying GTK theme ------x"
         sudo cp -r "dist/$THEME" "/usr/share/themes"
         cd ..
+        sudo cp -r "../$FLAVOR/openbox-3" "/usr/share/themes/$THEME" 
         rm -rf tmp/
 
     echo "x------ Running start script ------x"
-        ~/.config/openbox-themes/themes/$THEME/apply.sh
+        bash ~/.config/openbox-themes/themes/$THEME/apply.sh
     break
 done
