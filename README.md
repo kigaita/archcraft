@@ -43,8 +43,6 @@
   4. Change between themes by right clicking desktop and going to Preferences > Change Style
 
 ## 🙋 FAQ (Archcraft)
-- Q: *"The openbox theme didn't update, what do I do?"*<br>
-   A: Run `lxappearance` and configure the theme if broken
 
 - Q: *"The theme isn't applying to my WM"*<br>
    A: This is a theme for Archcraft Openbox.
@@ -54,7 +52,7 @@
    A: Try running `sudo chmod 774 -R /usr/share/archcraft`
 
 - Q: *"I got an error saying "failed to execute child process" from the menus*<br>
-   A: The pipemenus use common programs, but not everyone has them installed. They're optional, however, and doesn't change the theme. Any necessary programs have been installed.
+   A: The pipemenus use common programs, but it doesn't install every program that Archcraft uses.
 
 
 ## 💝 Thanks to
@@ -62,7 +60,6 @@
 - [Vanillyn](https://github.com/vanillyn)
 - [nyxkrage](https://github.com/nyxkrage) (install script)
 - [nekowinston](https://github.com/nekowinston) (install script)
-- Lamp (macchiato)
 
 &nbsp;
 
