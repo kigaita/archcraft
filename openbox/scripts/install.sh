@@ -22,7 +22,8 @@ select fl in "Mocha" "Frappe" "Macchiato" "Latte"; do
      cp -rv "../$FLAVOR/.config" ~
      cp -rv "../$FLAVOR/Wallpapers" ~/Pictures
     echo "x------ Installing GTK theme ------x"
-        git clone https://github.com/catppuccin/gtk tmp -q --recursive
+        sudo pacman -Sq python-pip lxappearance-obconf --noconfirm
+        git clone https://github.com/catppuccin/gtk tmp --recursive
 
         cd tmp || exit
         pip install catppuccin
@@ -33,7 +34,7 @@ select fl in "Mocha" "Frappe" "Macchiato" "Latte"; do
     echo "x------ Copying GTK theme ------x"
         sudo cp -r "dist/$THEME" "/usr/share/themes"
         cd ..
-        sudo cp -r "../$FLAVOR/openbox-3" "/usr/share/themes/$THEME" 
+        sudo cp -r "../$FLAVOR/openbox-3" "/usr/share/themes/$THEME"
         rm -rf tmp/
 
     echo "x------ Running start script ------x"

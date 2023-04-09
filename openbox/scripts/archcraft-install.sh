@@ -4,5 +4,7 @@ sudo pacman -S --noconfirm openbox xorg qt5ct pastel nemo nitrogen polybar rofi 
 echo Copying files
 sudo cp -rv ../Archcraft\ Files/archcraft /usr/share/
 echo Finished installing necessary Archcraft files
+echo Checking permissions...
+sudo chmod 774 /usr/share/archcraft -R
 echo Starting Catppuccin flavor installer
 ./install.sh
