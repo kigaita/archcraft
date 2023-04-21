@@ -185,8 +185,8 @@ menu.separator.color: #eff1f5
 
 menu.items.bg: Flat Solid
 menu.items.bg.color: #eff1f5
-menu.items.text.color: #cdd6f4
-menu.items.disabled.text.color: #cdd6f4
+menu.items.text.color: #4c4f69
+menu.items.disabled.text.color: #4c4f69
 
 menu.items.active.bg: Flat Solid
 menu.items.active.bg.color: #ea76cb
@@ -199,14 +199,14 @@ osd.border.color: #2A3036
 
 osd.bg: Flat Solid
 osd.bg.color: #eff1f5
-osd.label.text.color: #cdd6f4
+osd.label.text.color: #4c4f69
 
 osd.active.label.bg: Flat Solid
 osd.active.label.bg.color: #eff1f5
 osd.active.label.text.color: #ea76cb
 osd.inactive.label.bg: Flat Solid
 osd.inactive.label.bg.color: #eff1f5
-osd.inactive.label.text.color: #cdd6f4
+osd.inactive.label.text.color: #4c4f69
 
 osd.hilight.bg: Flat Solid
 osd.hilight.bg.color: #ea76cb
@@ -216,7 +216,7 @@ osd.unhilight.bg.color: #eff1f5
 osd.button.unpressed.bg: Flat Solid Border
 osd.button.unpressed.bg.color: #2F3D44
 osd.button.unpressed.*.border.color: #2F3D44
-osd.button.unpressed.text.color: #cdd6f4
+osd.button.unpressed.text.color: #4c4f69
 
 osd.button.hover.bg: Flat Solid Border
 osd.button.hover.bg.color: #2F3D44
@@ -231,5 +231,5 @@ osd.button.pressed.box.color: #2F3D44
 
 osd.button.focused.bg: Flat Solid
 osd.button.focused.bg.color: #2F3D44
-osd.button.focused.text.color: #cdd6f4
+osd.button.focused.text.color: #4c4f69
 osd.button.focused.box.color: #2F3D44

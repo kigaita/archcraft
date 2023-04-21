@@ -13,7 +13,7 @@ altforeground="`pastel color $foreground | pastel darken $dark_value | pastel fo
 
 ## Directories ------------------------------
 PATH_CONF="$HOME/.config"
-PATH_TERM="$PATH_CONF/alacritty"
+PATH_TERM="~/.config/alacritty"
 PATH_DUNST="$PATH_CONF/dunst"
 PATH_code="$PATH_CONF/code"
 PATH_OBOX="$PATH_CONF/openbox"

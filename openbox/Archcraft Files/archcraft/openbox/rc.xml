@@ -687,41 +687,41 @@
         <command>code</command>
       </action>
     </keybind>
-    <!-- Rofi -->
+      <!-- Rofi -->
     <keybind key="A-F1">
       <action name="Execute">
-        <command>launcher</command>
+        <command>~/.config/openbox-themes/scripts/launcher</command>
       </action>
     </keybind>
     <keybind key="W-n">
       <action name="Execute">
-        <command>networkmanager_dmenu</command>
+        <command>~/.config/openbox-themes/scripts/networkmanager_dmenu</command>
       </action>
     </keybind>
     <keybind key="W-m">
       <action name="Execute">
-        <command>music</command>
+        <command>~/.config/openbox-themes/scripts/music</command>
       </action>
     </keybind>
     <keybind key="W-x">
       <action name="Execute">
-        <command>powermenu</command>
+        <command>~/.config/openbox-themes/scripts/powermenu</command>
       </action>
     </keybind>
     <keybind key="W-s">
       <action name="Execute">
-        <command>screenshot</command>
+        <command>~/.config/openbox-themes/scripts/screenshot</command>
       </action>
     </keybind>
     <keybind key="W-r">
       <action name="Execute">
-        <command>runner</command>
+        <command>~/.config/openbox-themes/scripts/runner</command>
       </action>
     </keybind>
     <!-- CLI Apps -->
     <keybind key="C-A-t">
       <action name="Execute">
-        <command>xfce4-terminal</command>
+        <command>alacritty</command>
       </action>
     </keybind>
     <keybind key="C-A-v">
