@@ -13,26 +13,26 @@
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vanillyn/archcraft/main/images/archcraft.png"/>
+  <img src="https://raw.githubusercontent.com/vanillyn/archcraft/main/assets/res.webp"/>
 </p>
 
 ## Previews
 
 <details>
 <summary>🌻 Latte</summary>
-  <img src="https://raw.githubusercontent.com/vanillyn/archcraft/main/images/previews/latte.png"/>
+  <img src="https://raw.githubusercontent.com/vanillyn/archcraft/main/assets/previews/latte.png"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-  <img src="https://raw.githubusercontent.com/vanillyn/archcraft/main/images/previews/frappe.png"/>
+  <img src="https://raw.githubusercontent.com/vanillyn/archcraft/main/assets/previews/frappe.png"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-  <img src="https://raw.githubusercontent.com/vanillyn/archcraft/main/images/previews/macchiato.png"/>
+  <img src="https://raw.githubusercontent.com/vanillyn/archcraft/main/assets/previews/macchiato.png"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-  <img src="https://raw.githubusercontent.com/vanillyn/archcraft/main/images/previews/mocha.png"/>
+  <img src="https://raw.githubusercontent.com/vanillyn/archcraft/main/assets/previews/mocha.png"/>
 </details>
 
 ## Usage
