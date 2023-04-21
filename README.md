@@ -45,7 +45,7 @@
 ## 🙋 FAQ (Archcraft)
 
 - Q: *"The theme isn't applying to my WM"*<br>
-   A: This is a theme for Archcraft Openbox.
+   A: This is a theme for Archcraft Openbox. BSPWM may come soon.
 
 ## 🙋 FAQ (Arch Linux)
 - Q: *"I got an error saying "failed to execute child process" from the menus*<br>
