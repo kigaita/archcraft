@@ -13,14 +13,12 @@ altforeground="`pastel color $foreground | pastel darken $dark_value | pastel fo
 
 ## Directories ------------------------------
 PATH_CONF="$HOME/.config"
-PATH_TERM="$PATH_CONF/alacritty"
+PATH_TERM="~/.config/alacritty"
 PATH_DUNST="$PATH_CONF/dunst"
-PATH_GEANY="$PATH_CONF/geany"
 PATH_OBOX="$PATH_CONF/openbox"
 PATH_OBTS="$PATH_CONF/openbox-themes"
 PATH_PBAR="$PATH_OBTS/themes/$THEME/polybar"
 PATH_ROFI="$PATH_OBTS/themes/$THEME/rofi"
-PATH_XFCE="$PATH_CONF/xfce4/terminal"
 
 ## Wallpaper ---------------------------------
 apply_wallpaper() {
@@ -228,6 +226,53 @@ apply_compositor() {
 		-e "s/strength = .*/strength = $picom_blur_strength;/g"
 }
 
+# Terminal ----------------------------------
+apply_terminal() {
+	# alacritty : fonts
+	sed -i ${PATH_TERM}/fonts.yml \
+		-e "s/family: .*/family: \"$terminal_font_name\"/g" \
+		-e "s/size: .*/size: $terminal_font_size/g"
+
+	# alacritty : colors
+	cat > ${PATH_TERM}/colors.yml <<- _EOF_
+		## Colors configuration
+		colors:
+		  # Default colors
+		  primary:
+		    background: '${background}'
+		    foreground: '${foreground}'
+
+		  # Normal colors
+		  normal:
+		    black:   '${color0}'
+		    red:     '${color1}'
+		    green:   '${color2}'
+		    yellow:  '${color3}'
+		    blue:    '${color4}'
+		    magenta: '${color5}'
+		    cyan:    '${color6}'
+		    white:   '${color7}'
+
+		  # Bright colors
+		  bright:
+		    black:   '${color8}'
+		    red:     '${color9}'
+		    green:   '${color10}'
+		    yellow:  '${color11}'
+		    blue:    '${color12}'
+		    magenta: '${color13}'
+		    cyan:    '${color14}'
+		    white:   '${color15}'
+	_EOF_
+
+	# xfce terminal : fonts & colors
+	sed -i ${PATH_XFCE}/terminalrc \
+		-e "s/FontName=.*/FontName=$terminal_font_name $terminal_font_size/g" \
+		-e "s/ColorBackground=.*/ColorBackground=${background}/g" \
+		-e "s/ColorForeground=.*/ColorForeground=${foreground}/g" \
+		-e "s/ColorCursor=.*/ColorCursor=${foreground}/g" \
+		-e "s/ColorPalette=.*/ColorPalette=${color0};${color1};${color2};${color3};${color4};${color5};${color6};${color7};${color8};${color9};${color10};${color11};${color12};${color13};${color14};${color15}/g"
+}
 # Create Theme File -------------------------
 create_file() {
 	theme_file="$PATH_OBTS/themes/.current"

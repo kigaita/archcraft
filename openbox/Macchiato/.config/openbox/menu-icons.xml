@@ -15,7 +15,7 @@
 		<separator/>
 		<item icon="&icons;/filemanager.png" label="File Manager">
 			<action name="Execute">
-				<command>nemo</command>
+				<command>thunar</command>
 			</action>
 		</item>
 		<separator/>

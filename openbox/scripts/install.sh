@@ -22,7 +22,7 @@ select fl in "Mocha" "Frappe" "Macchiato" "Latte"; do
      cp -rv "../$FLAVOR/.config" ~
      cp -rv "../$FLAVOR/Wallpapers" ~/Pictures
     echo "x------ Installing GTK theme ------x"
-        sudo pacman -Sq python-pip lxappearance-obconf --noconfirm
+        sudo pacman -Sq python-pip lxappearance-obconf ttf-jetbrains-mono ttf-jetbrains-mono-nerd --noconfirm
         git clone https://github.com/catppuccin/gtk tmp --recursive
 
         cd tmp || exit

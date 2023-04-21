@@ -83,8 +83,8 @@ x XF86AudioStop   	mpc stop
 x XF86AudioPlay   	mpc toggle
 x XF86AudioPrev   	mpc prev
 x XF86AudioNext   	mpc next
-x W-Return        	 konsole
-x W-f             	nemo
+x W-Return        	alacritty
+x W-f             	thunar
 x W-w             	firefox
 x W-e             	code
 x A-F1            	launcher

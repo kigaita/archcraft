@@ -13,7 +13,7 @@ altforeground="`pastel color $foreground | pastel darken $dark_value | pastel fo
 
 ## Directories ------------------------------
 PATH_CONF="$HOME/.config"
-PATH_TERM="$PATH_CONF/ konsole"
+PATH_TERM="$PATH_CONF/alacritty"
 PATH_DUNST="$PATH_CONF/dunst"
 PATH_code="$PATH_CONF/code"
 PATH_OBOX="$PATH_CONF/openbox"
@@ -221,7 +221,7 @@ apply_plank() {
 		alignment='center'
 		auto-pinning=true
 		current-workspace-only=false
-		dock-items=['xfce-settings-manager.dockitem', ' konsole.dockitem', 'nemo.dockitem', 'firefox.dockitem', 'code.dockitem']
+		dock-items=['xfce-settings-manager.dockitem', 'alacritty.dockitem', 'thunar.dockitem', 'firefox.dockitem', 'code.dockitem']
 		hide-delay=0
 		hide-mode='$plank_hmode'
 		icon-size=$plank_icon_size

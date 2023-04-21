@@ -76,7 +76,7 @@ our $CONFIG = {
                            },
   "locale_support"      => 1,
   "missing_icon"        => "gtk-missing-image",
-  "terminal"            => " konsole",
+  "terminal"            => "alacritty",
   "use_gtk3"            => 0,
   "VERSION"             => 0.89,
 }

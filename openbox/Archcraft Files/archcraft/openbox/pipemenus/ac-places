@@ -4,9 +4,9 @@
 ##
 ## Openbox Pipemenu for places
 
-readonly terminal= konsole
+readonly terminal=alacritty
 readonly text_editor=code
-readonly open_folder_cmd=nemo
+readonly open_folder_cmd=thunar
 readonly default_open_cmd=exo-open
 readonly recent_script=/usr/share/archcraft/openbox/pipemenus/ac-recent-files
 

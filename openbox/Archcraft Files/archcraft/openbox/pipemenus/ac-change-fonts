@@ -17,7 +17,7 @@ ctheme="`cat $themedir/.current`"
 
 # Dir
 confdir="$HOME/.config"
-termdir="$confdir/ konsole"
+termdir="$confdir/alacritty"
 dunstdir="$confdir/dunst"
 oboxdir="$confdir/openbox"
 polydir="$themedir/$ctheme/polybar"
@@ -152,7 +152,7 @@ else
     menuStart
         menuItem 'Status Bar (polybar)' "$0 --bar"
         menuItem 'Launchers (rofi)' "$0 --rofi"
-        menuItem 'Terminal ( konsole)' "$0 --terminal"
+        menuItem 'Terminal (alacritty)' "$0 --terminal"
         menuItem 'Desktop (openbox)' "$0 --openbox"
         menuItem 'Notifications (dunst)' "$0 --dunst"
         menuItem 'Applications (gtk)' "$0 --gtk"

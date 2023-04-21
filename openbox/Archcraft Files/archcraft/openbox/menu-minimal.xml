@@ -8,12 +8,12 @@
 <!--	<separator label="Main Menu"/>  -->
 		<item label="Terminal Emulator">
 			<action name="Execute">
-				<command> konsole</command>
+				<command>alacritty</command>
 			</action>
 		</item>
 		<item label="File Manager">
 			<action name="Execute">
-				<command>nemo</command>
+				<command>thunar</command>
 			</action>
 		</item>
 		<item label="Web Browser">

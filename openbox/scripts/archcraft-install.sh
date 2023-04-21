@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 echo Installing necessary programs
-sudo pacman -S --noconfirm openbox xorg qt5ct pastel nemo nitrogen polybar rofi mpd xmlstarlet dunst lxappearance obconf xsettingsd python3 python-pip git
+sudo pacman -S --noconfirm openbox xorg qt5ct pastel thunar nitrogen polybar rofi mpd xmlstarlet dunst lxappearance obconf xsettingsd python3 python-pip git alacritty
 echo Copying files
 sudo cp -rv ../Archcraft\ Files/archcraft /usr/share/
 echo Finished installing necessary Archcraft files

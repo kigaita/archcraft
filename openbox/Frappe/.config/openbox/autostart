@@ -31,8 +31,8 @@ exec dunst &
 ## Start Music Player Daemon
 exec mpd &
 
-## nemo Daemon
-exec nemo --daemon &
+## thunar Daemon
+exec thunar --daemon &
 
 ## Enable Super Keys For Menu
 ksuperkey -e 'Super_L=Alt_L|F1' &
