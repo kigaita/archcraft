@@ -48,9 +48,6 @@
    A: This is a theme for Archcraft Openbox.
 
 ## 🙋 FAQ (Arch Linux)
-- Q: *"I got an error saying "permission denied" from the menus"*<br>
-   A: Try running `sudo chmod 774 -R /usr/share/archcraft`
-
 - Q: *"I got an error saying "failed to execute child process" from the menus*<br>
    A: The pipemenus use common programs, but it doesn't install every program that Archcraft uses.
 
