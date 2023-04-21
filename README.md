@@ -20,19 +20,19 @@
 
 <details>
 <summary>🌻 Latte</summary>
-  <img src="https://raw.githubusercontent.com/vanillyn/archcraft/main/assets/previews/latte.png"/>
+  <img src="https://raw.githubusercontent.com/vanillyn/archcraft/main/assets/previews/Latte.png"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-  <img src="https://raw.githubusercontent.com/vanillyn/archcraft/main/assets/previews/frappe.png"/>
+  <img src="https://raw.githubusercontent.com/vanillyn/archcraft/main/assets/previews/Frappe.png"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-  <img src="https://raw.githubusercontent.com/vanillyn/archcraft/main/assets/previews/macchiato.png"/>
+  <img src="https://raw.githubusercontent.com/vanillyn/archcraft/main/assets/previews/Macchiato.png"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-  <img src="https://raw.githubusercontent.com/vanillyn/archcraft/main/assets/previews/mocha.png"/>
+  <img src="https://raw.githubusercontent.com/vanillyn/archcraft/main/assets/previews/Mocha.png"/>
 </details>
 
 ## Usage
