@@ -45,12 +45,9 @@
 ## 🙋 FAQ (Archcraft)
 
 - Q: *"The theme isn't applying to my WM"*<br>
-   A: This is a theme for Archcraft Openbox.
+   A: This is a theme for Archcraft Openbox. BSPWM may come soon.
 
 ## 🙋 FAQ (Arch Linux)
-- Q: *"I got an error saying "permission denied" from the menus"*<br>
-   A: Try running `sudo chmod 774 -R /usr/share/archcraft`
-
 - Q: *"I got an error saying "failed to execute child process" from the menus*<br>
    A: The pipemenus use common programs, but it doesn't install every program that Archcraft uses.
 
