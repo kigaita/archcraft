@@ -6,7 +6,6 @@
 ## Theme ------------------------------------
 TDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 THEME="Catppuccin-Macchiato"
-
 source "$HOME"/.config/openbox-themes/themes/"$THEME"/theme.bash
 altbackground="`pastel color $background | pastel lighten $light_value | pastel format hex`"
 altforeground="`pastel color $foreground | pastel darken $dark_value | pastel format hex`"
@@ -15,12 +14,10 @@ altforeground="`pastel color $foreground | pastel darken $dark_value | pastel fo
 PATH_CONF="$HOME/.config"
 PATH_TERM="~/.config/alacritty"
 PATH_DUNST="$PATH_CONF/dunst"
-PATH_code="$PATH_CONF/code"
 PATH_OBOX="$PATH_CONF/openbox"
 PATH_OBTS="$PATH_CONF/openbox-themes"
 PATH_PBAR="$PATH_OBTS/themes/$THEME/polybar"
 PATH_ROFI="$PATH_OBTS/themes/$THEME/rofi"
-PATH_XFCE="$PATH_CONF/xfce4/terminal"
 
 ## Wallpaper ---------------------------------
 apply_wallpaper() {
@@ -112,8 +109,8 @@ apply_netmenu() {
 apply_appearance() {
 	# apply gtk theme, icons, cursor & fonts
 	xfconf-query -c xsettings -p /Gtk/FontName -s "$gtk_font"
-	xfconf-query -c xsettings -p /Net/ThemeName -s "$THEME"
-	xfconf-query -c xsettings -p /Net/IconThemeName -s "$icon_theme"
+	xfconf-query -c xsettings -p /Net/ThemeName -s "Catppuccin-Mocha"
+	xfconf-query -c xsettings -p /Net/IconThemeName -s "Zafiro-Nord-Black-BLue"
 	xfconf-query -c xsettings -p /Gtk/CursorThemeName -s "$cursor_theme"
 	
 	# inherit cursor theme
@@ -129,7 +126,6 @@ apply_obconfig () {
 
 	# Theme
 xmlstarlet ed -L -u '_:openbox_config/_:theme/_:name' --value "$THEME" "$config"
-
 	# Fonts
 	xmlstarlet ed -L -N a="$namespace" -u '/a:openbox_config/a:theme/a:font[@place="ActiveWindow"]/a:name' -v "$ob_font" "$config"
 	xmlstarlet ed -L -N a="$namespace" -u '/a:openbox_config/a:theme/a:font[@place="ActiveWindow"]/a:size' -v "$ob_font_size" "$config"
@@ -213,37 +209,6 @@ apply_dunst() {
 	pkill dunst && dunst &
 }
 
-# Plank -------------------------------------
-apply_plank() {
-	# create temporary config file
-	cat > "$HOME"/.cache/plank.conf <<- _EOF_
-		[dock1]
-		alignment='center'
-		auto-pinning=true
-		current-workspace-only=false
-		dock-items=['xfce-settings-manager.dockitem', 'alacritty.dockitem', 'thunar.dockitem', 'firefox.dockitem', 'code.dockitem']
-		hide-delay=0
-		hide-mode='$plank_hmode'
-		icon-size=$plank_icon_size
-		items-alignment='center'
-		lock-items=false
-		monitor=''
-		offset=$plank_offset
-		pinned-only=false
-		position='$plank_position'
-		pressure-reveal=false
-		show-dock-item=false
-		theme='$plank_theme'
-		tooltips-enabled=true
-		unhide-delay=0
-		zoom-enabled=true
-		zoom-percent=$plank_zoom_percent
-	_EOF_
-
-	# apply config and reload plank
-	cat "$HOME"/.cache/plank.conf | dconf load /net/launchpad/plank/docks/
-}
-
 # Compositor --------------------------------
 apply_compositor() {
 	picom_cfg="$PATH_CONF/picom.conf"
@@ -260,6 +225,58 @@ apply_compositor() {
 		-e "s/strength = .*/strength = $picom_blur_strength;/g"
 }
 
+# Terminal ----------------------------------
+apply_terminal() {
+	# alacritty : fonts
+	sed -i "$HOME"/.config/alacritty/fonts.yml \
+		-e "s/family: .*/family: \"$terminal_font_name\"/g" \
+		-e "s/size: .*/size: $terminal_font_size/g"
+
+	# alacritty : colors
+	alacolors() { 
+	THEME="Catppuccin-Macchiato"
+source "$HOME"/.config/openbox-themes/themes/"$THEME"/theme.bash
+	cat > "$HOME"/.config/alacritty/colors.yml <<- _EOF_
+		## Colors configuration
+		colors:
+		  # Default colors
+		  primary:
+		    background: '${background}'
+		    foreground: '${foreground}'
+
+		  # Normal colors
+		  normal:
+		    black:   '${color0}'
+		    red:     '${color1}'
+		    green:   '${color2}'
+		    yellow:  '${color3}'
+		    blue:    '${color4}'
+		    magenta: '${color5}'
+		    cyan:    '${color6}'
+		    white:   '${color7}'
+
+		  # Bright colors
+		  bright:
+		    black:   '${color8}'
+		    red:     '${color9}'
+		    green:   '${color10}'
+		    yellow:  '${color11}'
+		    blue:    '${color12}'
+		    magenta: '${color13}'
+		    cyan:    '${color14}'
+		    white:   '${color15}'
+	_EOF_
+}
+alacolors
+
+	# xfce terminal : fonts & colors
+	sed -i ${PATH_XFCE}/terminalrc \
+		-e "s/FontName=.*/FontName=$terminal_font_name $terminal_font_size/g" \
+		-e "s/ColorBackground=.*/ColorBackground=${background}/g" \
+		-e "s/ColorForeground=.*/ColorForeground=${foreground}/g" \
+		-e "s/ColorCursor=.*/ColorCursor=${foreground}/g" \
+		-e "s/ColorPalette=.*/ColorPalette=${color0};${color1};${color2};${color3};${color4};${color5};${color6};${color7};${color8};${color9};${color10};${color11};${color12};${color13};${color14};${color15}/g"
+}
 # Create Theme File -------------------------
 create_file() {
 	theme_file="$PATH_OBTS/themes/.current"
@@ -278,14 +295,13 @@ notify_user() {
 notify_user
 create_file
 apply_wallpaper
+apply_terminal
 apply_polybar
 apply_rofi
 apply_netmenu
-apply_code
 apply_appearance
 apply_obconfig
 apply_dunst
-apply_plank
 apply_compositor
 
 # fix cursor theme (run it in the end)

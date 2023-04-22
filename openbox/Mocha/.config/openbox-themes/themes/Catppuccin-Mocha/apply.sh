@@ -229,12 +229,15 @@ apply_compositor() {
 # Terminal ----------------------------------
 apply_terminal() {
 	# alacritty : fonts
-	sed -i ${PATH_TERM}/fonts.yml \
+	sed -i "$HOME"/.config/alacritty/fonts.yml \
 		-e "s/family: .*/family: \"$terminal_font_name\"/g" \
 		-e "s/size: .*/size: $terminal_font_size/g"
 
 	# alacritty : colors
-	cat > ${PATH_TERM}/colors.yml <<- _EOF_
+	alacolors() { 
+	THEME="Catppuccin-Mocha"
+source "$HOME"/.config/openbox-themes/themes/"$THEME"/theme.bash
+	cat > "$HOME"/.config/alacritty/colors.yml <<- _EOF_
 		## Colors configuration
 		colors:
 		  # Default colors
@@ -264,7 +267,8 @@ apply_terminal() {
 		    cyan:    '${color14}'
 		    white:   '${color15}'
 	_EOF_
-
+}
+alacolors
 	# xfce terminal : fonts & colors
 	sed -i ${PATH_XFCE}/terminalrc \
 		-e "s/FontName=.*/FontName=$terminal_font_name $terminal_font_size/g" \
@@ -290,6 +294,7 @@ notify_user() {
 ## Execute Script ---------------------------
 notify_user
 create_file
+apply_terminal
 apply_wallpaper
 apply_polybar
 apply_rofi
